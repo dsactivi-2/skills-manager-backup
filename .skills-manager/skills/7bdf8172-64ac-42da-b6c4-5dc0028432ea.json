@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "7bdf8172-64ac-42da-b6c4-5dc0028432ea",
+  "path": "objection-handling",
+  "path_key": "objection-handling",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

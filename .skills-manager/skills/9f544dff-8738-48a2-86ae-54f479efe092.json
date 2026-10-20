@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "9f544dff-8738-48a2-86ae-54f479efe092",
+  "path": "okx-cex-auth",
+  "path_key": "okx-cex-auth",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

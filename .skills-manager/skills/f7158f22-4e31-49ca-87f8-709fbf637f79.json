@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f7158f22-4e31-49ca-87f8-709fbf637f79",
+  "path": "k3s-helm-production-deployment",
+  "path_key": "k3s-helm-production-deployment",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

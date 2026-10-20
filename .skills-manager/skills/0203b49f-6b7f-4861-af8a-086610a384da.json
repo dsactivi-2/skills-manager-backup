@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "0203b49f-6b7f-4861-af8a-086610a384da",
+  "path": "hermes-multi-profile-ops",
+  "path_key": "hermes-multi-profile-ops",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

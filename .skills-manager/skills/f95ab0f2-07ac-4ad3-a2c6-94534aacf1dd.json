@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f95ab0f2-07ac-4ad3-a2c6-94534aacf1dd",
+  "path": "coverage-audit",
+  "path_key": "coverage-audit",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

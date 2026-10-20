@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "08521813-79be-4ef8-8c9d-29994fdabb71",
+  "path": "huggingface-spaces",
+  "path_key": "huggingface-spaces",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b1b14278-be25-432a-9717-6a8fb8b5dca9",
+  "path": "unsloth-studio-agents",
+  "path_key": "unsloth-studio-agents",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

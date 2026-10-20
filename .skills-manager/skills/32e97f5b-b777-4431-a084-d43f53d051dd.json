@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "32e97f5b-b777-4431-a084-d43f53d051dd",
+  "path": "vercel-firewall",
+  "path_key": "vercel-firewall",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

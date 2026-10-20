@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "d7a240ea-1068-4613-9c10-46d01765628f",
+  "path": "supabase-postgres-connectivity",
+  "path_key": "supabase-postgres-connectivity",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

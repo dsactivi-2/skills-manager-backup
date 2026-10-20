@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "e2e9bc1b-3692-4042-91d4-8cfc2ef0e25f",
+  "path": "langchain-dependencies",
+  "path_key": "langchain-dependencies",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

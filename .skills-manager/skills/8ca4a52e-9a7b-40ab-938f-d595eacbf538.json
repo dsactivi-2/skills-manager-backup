@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "8ca4a52e-9a7b-40ab-938f-d595eacbf538",
+  "path": "new-agent-smoke-test",
+  "path_key": "new-agent-smoke-test",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

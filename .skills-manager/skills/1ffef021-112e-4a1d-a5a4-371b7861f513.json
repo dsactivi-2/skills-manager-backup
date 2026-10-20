@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "1ffef021-112e-4a1d-a5a4-371b7861f513",
+  "path": "gws-workflow-weekly-digest",
+  "path_key": "gws-workflow-weekly-digest",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

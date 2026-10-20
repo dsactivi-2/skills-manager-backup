@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "c5c9dd19-16f4-4719-8b4b-52ed77e57308",
+  "path": "n8n-workflow-lifecycle-official",
+  "path_key": "n8n-workflow-lifecycle-official",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

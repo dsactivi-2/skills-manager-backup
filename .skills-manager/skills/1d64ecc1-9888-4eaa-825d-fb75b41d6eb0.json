@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "1d64ecc1-9888-4eaa-825d-fb75b41d6eb0",
+  "path": "plankton-code-quality",
+  "path_key": "plankton-code-quality",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

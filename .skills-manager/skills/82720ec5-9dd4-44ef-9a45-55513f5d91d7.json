@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "82720ec5-9dd4-44ef-9a45-55513f5d91d7",
+  "path": "dograh",
+  "path_key": "dograh",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "e8cb85d1-9249-4718-9ea7-eaa4c411965c",
+  "path": "playwright",
+  "path_key": "playwright",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

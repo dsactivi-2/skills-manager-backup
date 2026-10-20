@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "348c3a2c-3466-4134-a9ef-ac7004f2a37a",
+  "path": "n8n-agents-official",
+  "path_key": "n8n-agents-official",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

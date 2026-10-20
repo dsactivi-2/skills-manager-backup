@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "da7796e9-89a1-4ef0-a81e-bafa259081c8",
+  "path": "hermes-plugin-ops",
+  "path_key": "hermes-plugin-ops",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "1f9a2a2f-9b55-4894-bfa1-b308770cc3e1",
+  "path": "recruiting-crm",
+  "path_key": "recruiting-crm",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

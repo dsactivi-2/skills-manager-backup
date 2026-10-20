@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "813c6820-6960-45f9-b1e8-24b79f024038",
+  "path": "nextjs-on-cloudflare",
+  "path_key": "nextjs-on-cloudflare",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "aa4d29f4-41a8-44b5-978e-be2d7bac7b72",
+  "path": "cdn-caching",
+  "path_key": "cdn-caching",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

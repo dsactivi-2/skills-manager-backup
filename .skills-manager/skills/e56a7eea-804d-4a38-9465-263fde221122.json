@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "e56a7eea-804d-4a38-9465-263fde221122",
+  "path": "cover-letter-generator",
+  "path_key": "cover-letter-generator",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

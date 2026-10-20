@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "38eac4a6-e9a7-45a9-b737-bca7ba90bac7",
+  "path": "okx-cex-bot",
+  "path_key": "okx-cex-bot",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

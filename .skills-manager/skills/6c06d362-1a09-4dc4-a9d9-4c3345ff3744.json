@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "6c06d362-1a09-4dc4-a9d9-4c3345ff3744",
+  "path": "chatwoot-mcp-tools-expert",
+  "path_key": "chatwoot-mcp-tools-expert",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

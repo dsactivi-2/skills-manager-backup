@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "5dae9197-aecd-4b09-a236-d0e01c654d93",
+  "path": "dograh-handover",
+  "path_key": "dograh-handover",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "c4af00d1-2d01-4f75-8bca-1e826fa7fe10",
+  "path": "agentkit-seo-cv-ats",
+  "path_key": "agentkit-seo-cv-ats",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

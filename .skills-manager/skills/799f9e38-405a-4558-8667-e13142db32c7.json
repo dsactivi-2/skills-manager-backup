@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "799f9e38-405a-4558-8667-e13142db32c7",
+  "path": "okx-cex-skill-mp",
+  "path_key": "okx-cex-skill-mp",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

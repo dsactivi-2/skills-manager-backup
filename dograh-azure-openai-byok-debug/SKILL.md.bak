@@ -1,0 +1,90 @@
+---
+name: dograh-azure-openai-byok-debug
+description: "Diagnose Dograh Azure OpenAI BYOK failures by correlating Langfuse traces, Dograh model configuration, and Azure CLI deployment facts."
+trigger: "Use when Dograh LLM steps fail with Azure/OpenAI transport errors such as `API version not supported`, especially after BYOK setup."
+author: activi
+source_sessions:
+  - activi_dsactivi's Organization_default_019ef6f6-64b1-7bb3-b048-947e383d3c44
+  - activi_dsactivi's Organization_default_019ee052-6e19-79b1-ac6f-7ddbc6204a3c
+  - activi_dsactivi's Organization_default_019ee810-06c0-77c1-97a3-c5df9a18e36d
+  - activi_dsactivi's Organization_default_019ee7f4-17ed-7843-9792-9c123d764e9a
+  - activi_dsactivi's Organization_default_019ee7c2-df29-7ef1-8be8-e1b961786aea
+  - activi_dsactivi's Organization_default_019ee7b9-5ae0-71c0-af3a-14746f251469
+  - activi_dsactivi's Organization_default_019ee7aa-b026-72c1-a1ac-9513353b4949
+  - activi_dsactivi's Organization_default_019ee7a0-4057-7221-848a-d890f7d445ae
+  - activi_dsactivi's Organization_default_019ee796-992d-7753-ad02-da0f40123856
+  - activi_dsactivi's Organization_default_019ee75d-a344-7241-8b33-4c01f5e098f9
+contributors:
+  - activi
+version: 3
+created_by_agent: codex
+created_at: 2026-06-22T21:16:24.890Z
+updated_at: 2026-06-24T00:20:28.232Z
+---
+
+# Dograh Azure OpenAI BYOK debug
+
+## When to use
+
+Use when a Dograh voice workflow reaches an LLM step and fails with Langfuse/Dograh errors such as `BadRequestError`, `API version not supported`, provider `az.ai.openai`, or after configuring Azure OpenAI BYOK.
+
+## Workflow
+
+1. Prove the failing layer before editing.
+   - Read the latest Langfuse trace with `langfuse-cloud` MCP or `npx langfuse-cli api traces list --limit 1`.
+   - Capture trace id, observation name such as `llm-start-call`, provider, model, and exact error.
+   - Treat `401`/`403` as key/auth-first; treat `API version not supported` as endpoint/API-version-first.
+
+2. Ensure read-only access if needed.
+   - Load local env with `source ~/.config/dograh/env`.
+   - Verify lengths, not values: `echo ${#DOGRAH_API_KEY} ${#LANGFUSE_PUBLIC_KEY} ${#LANGFUSE_SECRET_KEY}`.
+   - For Langfuse Cloud MCP, build Basic auth from `LANGFUSE_PUBLIC_KEY:LANGFUSE_SECRET_KEY` and test `initialize` plus `tools/list`, or use the CLI trace-list smoke test.
+   - Never print secrets or decoded auth headers; rotate keys pasted into chat.
+
+3. Inspect Dograh read-only first.
+   - Use Dograh MCP to list workflows, fetch the affected workflow, list tools, list credentials, and check node types.
+   - If the workflow only has nodes like `startCall`, `agentNode`, `globalNode`, `endCall` and no model fields, assume the issue is outside the workflow in org-level `Model Configurations` or agent `Settings -> Model Overrides`.
+
+4. Inspect the Dograh UI fields.
+   - Open `Model Configurations -> BYOK -> LLM`.
+   - Also inspect `Settings -> Model Overrides` on the affected agent if present.
+   - Record exactly: `Provider`, `Model`, `Endpoint`, and whether API keys are present. Do not expose key values.
+
+5. Verify Azure as source of truth.
+```bash
+az cognitiveservices account show --name <resource> --resource-group <rg>
+az cognitiveservices account deployment list --name <resource> --resource-group <rg>
+```
+   - Confirm the resource exists, region matches, and the intended deployment exists.
+   - Use the Azure deployment name as Dograh `Model`, not the generic base-model label.
+
+6. Apply the Dograh/Azure endpoint rule.
+   - `Provider` stays `Azure OpenAI`.
+   - `Model` is the Azure deployment name, for example `gpt-4.1-mini`.
+   - `Endpoint` must be the classic Azure OpenAI resource endpoint: `https://<resource>.openai.azure.com/`.
+   - Do not use the Foundry/project endpoint: `https://<resource>.services.ai.azure.com/api/projects/...`.
+   - If Dograh has no API-version field and the trace says `API version not supported`, the wrong endpoint is the prime suspect. If the endpoint is already classic, check agent overrides or hidden API-version settings next.
+
+7. Retest one change at a time.
+   - Run the workflow again and inspect the next trace.
+   - Confirm LLM transport errors are gone before tuning prompts, latency, STT, or TTS.
+
+## Local example
+
+For Azure resource `activids` with deployment `gpt-4.1-mini`, Dograh BYOK LLM should use:
+
+```text
+Provider: Azure OpenAI
+Model: gpt-4.1-mini
+Endpoint: https://activids.openai.azure.com/
+```
+
+## Anti-patterns
+
+- Blaming prompt wording when the trace shows provider transport failure
+- Treating a key prefix as proof of root cause; bad keys usually produce `401` or `403`, not `API version not supported`
+- Using `services.ai.azure.com/api/projects/...` in Dograh BYOK LLM
+- Entering the base model name when Dograh expects the Azure deployment name
+- Changing key, endpoint, model, and overrides all at once
+- Printing API keys, decoded Basic auth, or private env contents in chat/logs
+- Claiming Azure is wrong before checking deployments with Azure CLI

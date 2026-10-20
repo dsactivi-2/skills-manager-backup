@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "d8bbf682-07ca-4837-8a51-d5f8af0d26b7",
+  "path": "omni-local-search",
+  "path_key": "omni-local-search",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

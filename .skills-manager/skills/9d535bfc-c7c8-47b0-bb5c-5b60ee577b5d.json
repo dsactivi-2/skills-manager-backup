@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "9d535bfc-c7c8-47b0-bb5c-5b60ee577b5d",
+  "path": "agent-sort",
+  "path_key": "agent-sort",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

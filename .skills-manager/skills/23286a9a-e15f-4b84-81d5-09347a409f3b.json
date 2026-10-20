@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "23286a9a-e15f-4b84-81d5-09347a409f3b",
+  "path": "agent-runtime-desktop-integration",
+  "path_key": "agent-runtime-desktop-integration",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

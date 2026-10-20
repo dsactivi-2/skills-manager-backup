@@ -1,0 +1,5 @@
+interface:
+  display_name: Cal.com API
+  short_description: Cal.com API v2 bookings, slots, and webhooks
+  default_prompt: Use $skill-name for Cal.com API v2 bookings, event types, slots,
+    or webhooks.

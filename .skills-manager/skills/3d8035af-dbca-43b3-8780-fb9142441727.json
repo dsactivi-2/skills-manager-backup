@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "3d8035af-dbca-43b3-8780-fb9142441727",
+  "path": "context-budget",
+  "path_key": "context-budget",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

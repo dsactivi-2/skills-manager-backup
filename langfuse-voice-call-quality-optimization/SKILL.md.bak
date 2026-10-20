@@ -1,0 +1,82 @@
+---
+name: langfuse-voice-call-quality-optimization
+description: "Optimize voice-agent openings, naturalness, interruption handling, short-backchannel recovery, and locale-specific prosody by separating Langfuse evidence from Dograh flow fixes and runtime voice settings."
+trigger: "Use when a voice call sounds robotic, uses the wrong live greeting, hangs after short caller replies, skips turns, or drifts into the wrong language despite being structurally correct."
+author: activi
+source_sessions:
+  - activi_dsactivi's Organization_default_019ef037-b0d1-73d1-b671-6dce15e8dc52
+  - activi_dsactivi's Organization_default_019ef092-5dee-79b0-87d1-d28d617c86c9
+  - activi_dsactivi's Organization_default_019ef06b-a7c8-7cc0-bf04-bbe153177903
+  - activi_dsactivi's Organization_default_019ef067-a681-7a53-95b0-55c080d7a846
+  - activi_dsactivi's Organization_default_019ef043-fd75-7410-b115-4b262e75f569
+contributors:
+  - activi
+version: 8
+created_by_agent: codex
+created_at: 2026-06-22T17:02:12.599Z
+updated_at: 2026-06-22T23:15:53.979Z
+---
+
+# Langfuse voice-call quality optimization
+
+## When to use
+
+Use when a voice agent is formally correct but still sounds wrong to humans: stale greeting, robotic delivery, weak warmth, wrong persona/name, language drift, too-fast speech, bad pronunciation, or turns that get interrupted, skipped, or hang after short caller replies.
+
+Typical signals:
+- Production greeting differs from the latest draft.
+- Langfuse shows the call passed structurally, but the human experience is poor.
+- Short caller backchannels like `da`, `aha`, `ciao`, `A,` or noisy fragments cause hangs, interruptions, or missed replies.
+- A localized workflow needs Bosnian or Italian prosody, filler words, pacing, and state-machine prompts tightened.
+
+## Workflow
+
+1. Inspect the latest production trace in Langfuse first.
+- Start with the opening observation and first 10 to 20 seconds.
+- Check whether the live greeting is old.
+- Check `turn.was_interrupted`, short caller utterances, and language drift after mixed or very short inputs.
+
+2. Separate the problem layer before editing.
+- Langfuse: prompt version, traces, scores, annotation queues, regression history.
+- Dograh: node prompts, state machine, edge conditions, published vs draft workflow.
+- Runtime/TTS: voice ID, tempo, pauses, pronunciation, locale accent.
+- STT/runtime failures like `503 Service Unavailable` are provider/runtime issues, not prompt bugs.
+
+3. Prove whether it is latency or turn-handling.
+- Compare LLM and TTS latency in the trace before calling it a slowness problem.
+- If model and TTS latency are normal but replies still feel skipped, treat it as backchannel handling, turn-boundary sensitivity, or state-machine logic first.
+
+4. Fix the live opening first.
+- The first turn should include role, reason for the call, short context, and an immediate permission question.
+- Ensure the agent name matches the actual voice persona.
+- Localize place names and pronunciation-sensitive terms, for example switch `Bremen` to `Cazin` when needed.
+
+5. Add Langfuse quality measurement that matches the complaint.
+- Use separate scores such as `Greeting correctness`, `Naturalness`, `Warmth`, `Humanness`, and optional `Prosody impression`.
+- Put review focus on the opening observation, not only the whole trace.
+- Create an annotation queue for the opening turns.
+
+6. Diagnose interruption and skip behavior from traces.
+- Treat repeated interruptions as turn-handling or backchannel issues first.
+- Add explicit handling for short confirmations, noisy transcripts, and partial utterances.
+- Anchor the language explicitly when the agent replies in the wrong language after mixed or short inputs.
+
+7. Apply fixes in Dograh one layer at a time.
+- Tighten the global voice/persona prompt for the target locale.
+- Add explicit voice/prosody instructions: shorter sentences, slower pace, natural pauses, locale-appropriate filler words, and clear locale anchoring.
+- Make the state machine explicit with separate opening, clarification, qualification, objection, summary, and close nodes when needed.
+- Add a recovery path for short backchannels instead of letting the flow stall or overreact.
+
+8. Re-test against the active workflow.
+- Draft is not production.
+- After publish, verify the live greeting, voice setting, and early-turn behavior with a short real or replayed call.
+
+## Anti-patterns
+
+- Treating robotic delivery as a prompt-only problem.
+- Scoring only correctness while ignoring warmth and naturalness.
+- Changing prompt, voice, and flow at the same time without a baseline.
+- Ignoring `turn.was_interrupted`, short-backchannel evidence, or language drift in Langfuse.
+- Calling it a latency issue when the traces show normal LLM/TTS timings.
+- Leaving the persona name mismatched with the actual voice.
+- Marking the fix complete before hearing the published opening.

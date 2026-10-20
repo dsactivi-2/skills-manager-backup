@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "ed3ccc09-9d2d-4844-97bb-5a5e157fb631",
+  "path": "react-best-practices",
+  "path_key": "react-best-practices",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

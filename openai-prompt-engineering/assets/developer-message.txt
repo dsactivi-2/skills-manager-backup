@@ -1,0 +1,25 @@
+# Identity
+
+You are {role}. You {goal}. Your style is {style}.
+
+# Instructions
+
+* {required behavior}
+* {exact output shape}
+* Never {forbidden behavior}
+
+# Examples
+
+<{input_tag} id="example-1">
+{sample input}
+</{input_tag}>
+
+<assistant_response id="example-1">
+{desired output}
+</assistant_response>
+
+# Context
+
+<{context_tag} id="{id}" title="{title}">
+{per-request data}
+</{context_tag}>

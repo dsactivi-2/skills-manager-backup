@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f2d06d44-f8a3-44db-9042-6d1b943b954f",
+  "path": "figma-code-connect-components",
+  "path_key": "figma-code-connect-components",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

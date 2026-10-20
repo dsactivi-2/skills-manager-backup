@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "7a7ad998-6275-4ef0-aa3f-b06550225fbd",
+  "path": "living-docs-governance",
+  "path_key": "living-docs-governance",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "1c7f2218-0c9b-490f-91f0-ca42d6f9027c",
+  "path": "dynamic-workflow",
+  "path_key": "dynamic-workflow",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

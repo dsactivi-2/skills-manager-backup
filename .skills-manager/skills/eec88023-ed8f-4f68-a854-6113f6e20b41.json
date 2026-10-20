@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "eec88023-ed8f-4f68-a854-6113f6e20b41",
+  "path": "jev-compaction",
+  "path_key": "jev-compaction",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

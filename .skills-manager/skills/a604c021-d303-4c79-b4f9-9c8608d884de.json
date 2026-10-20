@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a604c021-d303-4c79-b4f9-9c8608d884de",
+  "path": "crm-search-guide",
+  "path_key": "crm-search-guide",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

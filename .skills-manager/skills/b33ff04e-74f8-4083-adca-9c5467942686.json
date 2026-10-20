@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b33ff04e-74f8-4083-adca-9c5467942686",
+  "path": "hermes-profile-soul-agents",
+  "path_key": "hermes-profile-soul-agents",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

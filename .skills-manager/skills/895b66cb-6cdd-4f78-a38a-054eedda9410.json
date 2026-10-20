@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "895b66cb-6cdd-4f78-a38a-054eedda9410",
+  "path": "lovable-account-settings",
+  "path_key": "lovable-account-settings",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

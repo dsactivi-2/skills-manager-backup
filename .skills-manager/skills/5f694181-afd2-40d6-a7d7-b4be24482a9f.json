@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "5f694181-afd2-40d6-a7d7-b4be24482a9f",
+  "path": "gws-gmail-triage",
+  "path_key": "gws-gmail-triage",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

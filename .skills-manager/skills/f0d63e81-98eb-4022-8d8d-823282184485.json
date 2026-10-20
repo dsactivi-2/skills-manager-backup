@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f0d63e81-98eb-4022-8d8d-823282184485",
+  "path": "safe-job-application-assistant",
+  "path_key": "safe-job-application-assistant",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

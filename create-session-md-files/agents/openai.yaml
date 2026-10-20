@@ -1,0 +1,7 @@
+interface:
+  display_name: "Create Session MD Files"
+  short_description: "Berät zu aufgabenbezogenen Markdown-Dateien"
+  default_prompt: "Use $create-session-md-files to advise me on task-specific Markdown files."
+
+policy:
+  allow_implicit_invocation: false

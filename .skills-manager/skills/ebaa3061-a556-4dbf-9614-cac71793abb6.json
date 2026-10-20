@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "ebaa3061-a556-4dbf-9614-cac71793abb6",
+  "path": "sandbox-sdk",
+  "path_key": "sandbox-sdk",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

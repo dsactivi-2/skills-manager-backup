@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "1d49e9b2-5272-4521-89d2-e8b7ed260b48",
+  "path": "honcho-integration",
+  "path_key": "honcho-integration",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a90f4155-d231-41c1-b786-82ee1d4851bf",
+  "path": "langgraph-fundamentals",
+  "path_key": "langgraph-fundamentals",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "ff05d442-07b2-4d36-b9de-dda0924837f1",
+  "path": "run-report",
+  "path_key": "run-report",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

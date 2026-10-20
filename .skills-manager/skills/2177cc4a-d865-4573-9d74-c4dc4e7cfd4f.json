@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "2177cc4a-d865-4573-9d74-c4dc4e7cfd4f",
+  "path": "neon",
+  "path_key": "neon",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

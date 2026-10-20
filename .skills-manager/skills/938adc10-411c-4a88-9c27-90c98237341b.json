@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "938adc10-411c-4a88-9c27-90c98237341b",
+  "path": "bicep-diagrams",
+  "path_key": "bicep-diagrams",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

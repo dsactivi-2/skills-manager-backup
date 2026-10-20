@@ -1,0 +1,4 @@
+interface:
+  display_name: "Job Search Coach"
+  short_description: "Resume, interview, and offer strategy"
+  default_prompt: "Use $job-search-coach to diagnose my job search and improve my resume, interview plan, or offer strategy."

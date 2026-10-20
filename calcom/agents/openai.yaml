@@ -1,0 +1,21 @@
+interface:
+  display_name: "Cal.com"
+  short_description: "Cal.com scheduling APIs, CLI, and MCP tools"
+  brand_color: "#111111"
+  default_prompt: "Use $skill-name for Cal.com bookings, event types, availability, or API v2 docs."
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "calcom-docs"
+      description: "Cal.com documentation MCP"
+      transport: "streamable_http"
+      url: "https://cal.com/docs/mcp"
+    - type: "mcp"
+      value: "calcom"
+      description: "Cal.com live API MCP"
+      transport: "streamable_http"
+      url: "https://mcp.cal.com/mcp"
+
+policy:
+  allow_implicit_invocation: true

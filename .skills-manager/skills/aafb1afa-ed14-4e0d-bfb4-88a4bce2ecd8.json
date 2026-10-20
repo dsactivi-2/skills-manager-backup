@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "aafb1afa-ed14-4e0d-bfb4-88a4bce2ecd8",
+  "path": "livekit-outbound-telephony",
+  "path_key": "livekit-outbound-telephony",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

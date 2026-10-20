@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "0baf9279-a878-460c-8168-dea607955531",
+  "path": "n8n-loops-official",
+  "path_key": "n8n-loops-official",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

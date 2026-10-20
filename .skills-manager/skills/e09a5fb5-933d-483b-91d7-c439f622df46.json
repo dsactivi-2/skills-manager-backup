@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "e09a5fb5-933d-483b-91d7-c439f622df46",
+  "path": "resume-bullet-writer",
+  "path_key": "resume-bullet-writer",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

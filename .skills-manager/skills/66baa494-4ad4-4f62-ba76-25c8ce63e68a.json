@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "66baa494-4ad4-4f62-ba76-25c8ce63e68a",
+  "path": "configure-ecc",
+  "path_key": "configure-ecc",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

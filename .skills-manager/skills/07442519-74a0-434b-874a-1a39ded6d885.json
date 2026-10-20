@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "07442519-74a0-434b-874a-1a39ded6d885",
+  "path": "terraform-diagrams",
+  "path_key": "terraform-diagrams",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

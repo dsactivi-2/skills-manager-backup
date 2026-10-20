@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "70a48e25-8ee6-4fd0-9a70-3df043b041b5",
+  "path": "spark-app-template",
+  "path_key": "spark-app-template",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

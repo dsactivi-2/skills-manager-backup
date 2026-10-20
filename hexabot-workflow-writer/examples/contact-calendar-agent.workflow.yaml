@@ -1,0 +1,194 @@
+# Advanced illustrative Hexabot v3 workflow definition.
+# This example demonstrates:
+# - conversational while loops
+# - ai_agent with conversation history
+# - memory bindings and $context.memory.<slug> loop conditions
+# - an MCP-backed Google Calendar agent
+# - a custom CRM action that must exist in the runtime action registry
+#
+# Configure workflow metadata outside this YAML:
+# - type: conversational
+# - name/description/publish state/version message
+#
+# Runtime prerequisites before this can run:
+# - Memory definitions with slugs `contact_profile` and `appointment_schedule`
+# - A model credential configured in Hexabot
+# - An MCP server configured for Google Calendar tools
+# - A custom or installed `hubspot_store_contact` action with the inputs/settings shown below
+# All UUIDs below are non-secret placeholders.
+---
+defaults:
+  settings:
+    timeout_ms: 0
+    retries:
+      enabled: false
+      max_attempts: 3
+      backoff_ms: 25
+      max_delay_ms: 10000
+      jitter: 0
+      multiplier: 1
+
+defs:
+  ask_for_contact_infos:
+    kind: task
+    description: "Ask the subscriber for contact details."
+    action: send_text_message
+    inputs:
+      text: "Hello, can you share your first name, last name, and email?"
+    settings:
+      typing: 0
+
+  await_contact_reply:
+    kind: task
+    description: "Suspend until the subscriber replies with contact details."
+    action: await_reply
+
+  contact_profile_memory:
+    kind: memory
+    description: "Memory definition expected to hydrate $context.memory.contact_profile."
+    settings:
+      definition_id: "11111111-1111-4111-8111-111111111111"
+
+  appointment_schedule_memory:
+    kind: memory
+    description: "Memory definition expected to hydrate $context.memory.appointment_schedule."
+    settings:
+      definition_id: "22222222-2222-4222-8222-222222222222"
+
+  primary_model:
+    kind: model
+    description: "Model binding used by both collection agents."
+    settings:
+      provider: openai
+      model_id: gpt-5.2
+      # Placeholder credential reference, not a secret value.
+      api_key: "33333333-3333-4333-8333-333333333333"
+
+  google_calendar_mcp:
+    kind: mcp
+    description: "MCP server exposing Google Calendar scheduling tools."
+    settings:
+      server_id: "44444444-4444-4444-8444-444444444444"
+      # Optional: uncomment and set exact tool names after inspecting the MCP server.
+      # tool_names: ["calendar.events.create"]
+
+  ai_contact_collector:
+    kind: task
+    description: "Use conversation history to collect and store contact fields in memory."
+    action: ai_agent
+    inputs:
+      input_mode: history
+      messages_limit: 10
+      system: |
+        You collect contact information for a CRM demo.
+        Required fields: first_name, last_name, email.
+        Ask a concise follow-up when any field is missing.
+        Update the bound memory when fields are provided.
+    bindings:
+      model: primary_model
+      memory:
+        - contact_profile_memory
+
+  prompt_for_missing_contact_info:
+    kind: task
+    description: "Send the collector agent's follow-up message."
+    action: send_text_message
+    inputs:
+      text: "=$output.ai_contact_collector.text"
+    settings:
+      typing: 0
+
+  hubspot_store_contact:
+    kind: task
+    description: "Custom/installed action that creates or updates a HubSpot contact."
+    action: hubspot_store_contact
+    inputs:
+      firstName: "=$context.memory.contact_profile.first_name"
+      lastName: "=$context.memory.contact_profile.last_name"
+      email: "=$context.memory.contact_profile.email"
+    settings:
+      # Placeholder credential reference for the custom action.
+      accessTokenCredential: "55555555-5555-4555-8555-555555555555"
+      baseUrl: "https://api.hubapi.com"
+      timeoutMs: 10000
+
+  ask_for_appointment_time:
+    kind: task
+    description: "Ask the subscriber for a preferred demo meeting time."
+    action: send_text_message
+    inputs:
+      text: "Great, let's book a demo meeting. What date and time works for you?"
+    settings:
+      typing: 0
+
+  await_appointment_reply:
+    kind: task
+    description: "Suspend until the subscriber replies with scheduling preferences."
+    action: await_reply
+
+  ai_schedule_agent:
+    kind: task
+    description: "Use memory and Google Calendar MCP tools to schedule a demo meeting."
+    action: ai_agent
+    inputs:
+      input_mode: history
+      messages_limit: 8
+      system: |
+        You schedule a one-hour Google Calendar meeting with the subscriber.
+        Title: Demo Meeting.
+        Timezone: Africa/Tunis.
+        Create a Google Meet link if the calendar tool supports it.
+        Ask a concise follow-up if the date or time is ambiguous.
+        Update the bound schedule memory after the meeting is created.
+    bindings:
+      model: primary_model
+      memory:
+        - appointment_schedule_memory
+      mcp:
+        - google_calendar_mcp
+
+  send_schedule_message:
+    kind: task
+    description: "Send the scheduling agent's response."
+    action: send_text_message
+    inputs:
+      text: "=$output.ai_schedule_agent.text"
+    settings:
+      typing: 0
+
+flow:
+  - do: ask_for_contact_infos
+  - loop:
+      type: while
+      name: collect_contact_profile
+      description: "Keep asking until required contact fields are present in memory."
+      while: >
+        = $not(
+            ($type($context.memory.contact_profile.first_name) = "string" and $trim($context.memory.contact_profile.first_name) != "") and
+            ($type($context.memory.contact_profile.last_name) = "string" and $trim($context.memory.contact_profile.last_name) != "") and
+            ($type($context.memory.contact_profile.email) = "string" and $trim($context.memory.contact_profile.email) != "")
+          )
+      steps:
+        - do: await_contact_reply
+        - do: ai_contact_collector
+        - do: prompt_for_missing_contact_info
+
+  - do: hubspot_store_contact
+  - do: ask_for_appointment_time
+  - loop:
+      type: while
+      name: schedule_demo_meeting
+      description: "Keep asking until schedule memory says the meeting is booked."
+      while: >
+        = $not($exists($context.memory.appointment_schedule.scheduled)) or
+          $not($context.memory.appointment_schedule.scheduled)
+      steps:
+        - do: await_appointment_reply
+        - do: ai_schedule_agent
+        - do: send_schedule_message
+
+outputs:
+  contact_email: "=$context.memory.contact_profile.email"
+  contact_stored: "=$exists($output.hubspot_store_contact)"
+  meeting_scheduled: "=$exists($context.memory.appointment_schedule.scheduled) ? $context.memory.appointment_schedule.scheduled : false"
+  final_message: "=$output.send_schedule_message.sent.envelope.data.text"

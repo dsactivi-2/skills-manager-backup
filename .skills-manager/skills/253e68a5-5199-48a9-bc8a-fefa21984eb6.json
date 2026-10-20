@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "253e68a5-5199-48a9-bc8a-fefa21984eb6",
+  "path": "n8n-subworkflows-official",
+  "path_key": "n8n-subworkflows-official",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

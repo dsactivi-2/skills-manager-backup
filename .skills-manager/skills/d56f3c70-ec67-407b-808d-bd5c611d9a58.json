@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "d56f3c70-ec67-407b-808d-bd5c611d9a58",
+  "path": "energy-warmup-session",
+  "path_key": "energy-warmup-session",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

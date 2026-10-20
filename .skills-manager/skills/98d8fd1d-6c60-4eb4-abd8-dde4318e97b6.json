@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "98d8fd1d-6c60-4eb4-abd8-dde4318e97b6",
+  "path": "jev-setup-2",
+  "path_key": "jev-setup-2",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

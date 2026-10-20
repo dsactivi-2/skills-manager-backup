@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f923f9e6-3409-4c31-b94e-640829b84716",
+  "path": "load-test",
+  "path_key": "load-test",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

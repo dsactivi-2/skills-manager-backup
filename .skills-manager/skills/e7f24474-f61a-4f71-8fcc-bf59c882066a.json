@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "e7f24474-f61a-4f71-8fcc-bf59c882066a",
+  "path": "terminal-execution",
+  "path_key": "terminal-execution",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

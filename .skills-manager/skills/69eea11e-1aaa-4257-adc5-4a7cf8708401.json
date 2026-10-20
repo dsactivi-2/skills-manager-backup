@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "69eea11e-1aaa-4257-adc5-4a7cf8708401",
+  "path": "github-repo-inventory",
+  "path_key": "github-repo-inventory",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

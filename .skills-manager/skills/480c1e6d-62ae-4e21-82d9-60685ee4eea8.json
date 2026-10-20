@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "480c1e6d-62ae-4e21-82d9-60685ee4eea8",
+  "path": "paperjsx",
+  "path_key": "paperjsx",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "97a53f12-458f-43d4-86c2-3b55f89516be",
+  "path": "config-gc",
+  "path_key": "config-gc",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

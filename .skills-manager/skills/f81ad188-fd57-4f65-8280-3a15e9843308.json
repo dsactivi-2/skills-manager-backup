@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f81ad188-fd57-4f65-8280-3a15e9843308",
+  "path": "jev-frontier-work",
+  "path_key": "jev-frontier-work",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

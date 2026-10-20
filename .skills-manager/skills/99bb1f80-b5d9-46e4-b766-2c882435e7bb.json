@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "99bb1f80-b5d9-46e4-b766-2c882435e7bb",
+  "path": "n8n-error-handling-official",
+  "path_key": "n8n-error-handling-official",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

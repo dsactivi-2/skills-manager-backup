@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "9afd2d35-bad7-4171-8f1e-c9629378a25b",
+  "path": "dograh-langfuse-call-scores",
+  "path_key": "dograh-langfuse-call-scores",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

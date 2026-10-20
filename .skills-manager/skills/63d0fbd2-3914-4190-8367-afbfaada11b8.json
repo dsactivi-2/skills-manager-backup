@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "63d0fbd2-3914-4190-8367-afbfaada11b8",
+  "path": "eraser-diagrams",
+  "path_key": "eraser-diagrams",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

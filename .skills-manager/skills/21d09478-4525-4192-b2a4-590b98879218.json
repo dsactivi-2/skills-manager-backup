@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "21d09478-4525-4192-b2a4-590b98879218",
+  "path": "screenpipe-bug-report",
+  "path_key": "screenpipe-bug-report",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b365cfe1-1dd3-4b70-8759-7b2a5ffdd4da",
+  "path": "jev-browser-use",
+  "path_key": "jev-browser-use",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

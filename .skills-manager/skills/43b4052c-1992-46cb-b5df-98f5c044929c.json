@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "43b4052c-1992-46cb-b5df-98f5c044929c",
+  "path": "production-pulse",
+  "path_key": "production-pulse",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

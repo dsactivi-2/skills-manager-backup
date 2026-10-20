@@ -1,0 +1,113 @@
+# Illustrative Hexabot v3 workflow definition.
+# This is schema-aligned with the agentic DSL, but not guaranteed production-ready.
+# Configure workflow metadata outside this YAML:
+# - type: conversational
+# - name/description/publish state/version message
+# Replace the placeholder credential ID before running in a real environment.
+# Do not add a root `inputs` section for conversational workflows; trigger input
+# fields such as $input.text and $input.thread_id are supplied by the runtime.
+---
+defaults:
+  settings:
+    timeout_ms: 10000
+    retries:
+      enabled: true
+      max_attempts: 2
+      backoff_ms: 300
+      max_delay_ms: 5000
+      jitter: 0
+      multiplier: 2
+
+defs:
+  support_triage_model:
+    kind: model
+    description: "Model binding used by the support triage AI tasks."
+    settings:
+      provider: openai
+      model_id: gpt-5.2
+      # Placeholder credential reference, not a secret value.
+      api_key: "00000000-0000-4000-8000-000000000000"
+
+  classify_support_request:
+    kind: task
+    description: "Classify the support message and decide whether human handoff is needed."
+    action: ai_infer_object
+    bindings:
+      model: support_triage_model
+    inputs:
+      input_mode: prompt
+      system: |
+        You triage customer support messages. Return only fields allowed by the output schema.
+        Treat refund, billing, security, legal, and account-access issues as requiring human review.
+      prompt: >
+        = 'Customer message: ' & $input.text
+    settings:
+      temperature: 0.1
+      output_schema:
+        type: object
+        properties:
+          category:
+            type: string
+            enum: ["billing", "technical", "account", "product", "other"]
+          urgency:
+            type: string
+            enum: ["low", "normal", "high"]
+          summary:
+            type: string
+          suggested_reply:
+            type: string
+          requires_human:
+            type: boolean
+        required: ["category", "urgency", "summary", "suggested_reply", "requires_human"]
+        additionalProperties: false
+
+  draft_customer_reply:
+    kind: task
+    description: "Draft a concise support reply for issues that do not require immediate human handoff."
+    action: ai_generate_reply
+    bindings:
+      model: support_triage_model
+    inputs:
+      input_mode: prompt
+      system: |
+        You write concise, helpful customer support replies. Do not promise refunds, account changes, or legal outcomes.
+      prompt: >
+        = 'Issue summary: ' & $output.classify_support_request.object.summary &
+          '\nSuggested reply: ' & $output.classify_support_request.object.suggested_reply &
+          '\nOriginal customer message: ' & $input.text
+    settings:
+      temperature: 0.3
+
+  send_customer_reply:
+    kind: task
+    description: "Send the drafted support reply back to the customer."
+    action: send_text_message
+    inputs:
+      text: "=$output.draft_customer_reply.text"
+
+  handover_to_support:
+    kind: task
+    description: "Escalate sensitive or urgent conversations to a human support agent."
+    action: subscriber_handover
+    inputs:
+      mode: auto
+
+flow:
+  - do: classify_support_request
+  - conditional:
+      description: "Route urgent or sensitive cases to a human; otherwise reply automatically."
+      when:
+        - condition: "=$output.classify_support_request.object.requires_human = true or $output.classify_support_request.object.urgency = 'high'"
+          steps:
+            - do: handover_to_support
+        - else: true
+          steps:
+            - do: draft_customer_reply
+            - do: send_customer_reply
+
+outputs:
+  category: "=$output.classify_support_request.object.category"
+  urgency: "=$output.classify_support_request.object.urgency"
+  summary: "=$output.classify_support_request.object.summary"
+  handover_started: "=$exists($output.handover_to_support.success) ? $output.handover_to_support.success : false"
+  reply_sent: "=$exists($output.send_customer_reply.sent)"

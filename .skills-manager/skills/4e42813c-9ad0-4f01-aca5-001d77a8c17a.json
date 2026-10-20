@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "4e42813c-9ad0-4f01-aca5-001d77a8c17a",
+  "path": "portfolio-case-study-writer",
+  "path_key": "portfolio-case-study-writer",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

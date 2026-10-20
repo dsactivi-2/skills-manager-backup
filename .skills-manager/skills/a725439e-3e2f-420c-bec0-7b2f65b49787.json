@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a725439e-3e2f-420c-bec0-7b2f65b49787",
+  "path": "eve",
+  "path_key": "eve",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "ddf9064c-a406-45dc-b1fc-837ed5ff811e",
+  "path": "marketing-psychology",
+  "path_key": "marketing-psychology",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

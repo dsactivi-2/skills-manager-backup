@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "0b6e1986-1f25-4787-9f0b-8f458e03c993",
+  "path": "voice-workflow-maps",
+  "path_key": "voice-workflow-maps",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

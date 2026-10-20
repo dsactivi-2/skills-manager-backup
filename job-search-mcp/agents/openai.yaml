@@ -1,0 +1,4 @@
+interface:
+  display_name: "Job Search MCP"
+  short_description: "Search jobs via JobSpy MCP"
+  default_prompt: "Use $job-search-mcp to find software jobs in Berlin from Indeed and LinkedIn."

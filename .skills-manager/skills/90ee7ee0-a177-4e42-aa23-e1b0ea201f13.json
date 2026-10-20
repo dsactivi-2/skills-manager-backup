@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "90ee7ee0-a177-4e42-aa23-e1b0ea201f13",
+  "path": "bosnian-voice-prompts",
+  "path_key": "bosnian-voice-prompts",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

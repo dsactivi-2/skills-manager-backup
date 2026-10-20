@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "03273a2b-d629-4dc1-8d5c-114e49a9992b",
+  "path": "acp-host-integration",
+  "path_key": "acp-host-integration",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

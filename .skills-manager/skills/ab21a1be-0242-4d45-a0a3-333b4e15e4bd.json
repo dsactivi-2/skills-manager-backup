@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "ab21a1be-0242-4d45-a0a3-333b4e15e4bd",
+  "path": "org-chart-diagrams",
+  "path_key": "org-chart-diagrams",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

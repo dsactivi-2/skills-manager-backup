@@ -1,0 +1,98 @@
+---
+name: voice-call-observability-audit
+description: "Audit, implement, and verify UnaViva Dograh/Langfuse voice-call observability across local audio analysis, Dograh workflow/UI settings, post-call Langfuse relay, and full-observation gaps. Use this skill when asked to analyze, score, configure, or debug a UnaViva Dograh/Langfuse voice call, especially when checking STT/diarization, silence/dropouts, Dograh turn-taking, QA/webhook Langfuse metrics, or observed-vs-missing evidence."
+trigger: "Use this skill when asked to analyze, score, configure, or debug a UnaViva Dograh/Langfuse voice call, especially when checking STT/diarization, silence/dropouts, Dograh turn-taking, QA/webhook Langfuse metrics, or observed-vs-missing evidence."
+author: activi
+source_sessions:
+  - activi_dsactivi's Organization_default_019f5e90-59a4-7632-af41-c585f88b7e53
+  - activi_dsactivi's Organization_default_019f5e72-69ba-71c3-93eb-03b1ffb815d9
+  - activi_dsactivi's Organization_default_019f5e7c-3dc6-7d40-a8f6-62902ac36385
+  - activi_dsactivi's Organization_default_019f5e77-94b8-7f51-8c13-9e62ac3fa6a5
+  - activi_dsactivi's Organization_default_019f5e78-58be-7010-9125-c78be0e6a9c5
+  - activi_dsactivi's Organization_default_019f5e18-d62b-7c12-93fa-96addd6a281a
+  - activi_dsactivi's Organization_default_019f5e47-5e15-76c0-998c-eaf5f0aaa632
+  - activi_dsactivi's Organization_default_019f5e2f-eb69-7e13-8f6a-2dcad431bc07
+  - activi_dsactivi's Organization_default_019f5ddf-d59e-71b0-9b90-7ef5ddb14e73
+  - activi_dsactivi's Organization_default_019f5dfd-32ae-71f1-854a-51aff75ef96f
+contributors:
+  - activi
+version: 7
+created_by_agent: codex
+created_at: 2026-07-13T23:50:39.140Z
+updated_at: 2026-07-14T03:19:00.016Z
+---
+
+# Voice call observability audit
+
+## When to use
+
+Use for UnaViva Dograh/Langfuse call audits, latest-call scoring, local recording/transcript analyzer work, Dograh workflow/UI turn-taking fixes, post-call Langfuse QA/webhook relay, full-observation planning, live-vs-plan verification, or guarded repair recommendations.
+
+## Workflow
+
+1. Start from project context before inventing scope:
+
+```bash
+cat ~/.deeplake/memory/index.md
+cat docs/observability/README.md
+cat docs/observability/observed-vs-not-observed.md
+cat docs/observability/full-observation/README.md
+```
+
+Keep **nach Plan** separate from **live verified**. A Dograh or Kubernetes API check is not proof that traces, recordings, PBX CDRs, SIP/RTP metrics, dashboards, or repair apply are end-to-end verified.
+
+2. Build the evidence matrix by layer:
+
+- Dograh: workflow/run IDs, published/draft version, transcript, recording, context, logs, usage/cost, annotations, QA node, webhook payload.
+- Langfuse: trace link, STT/LLM/TTS observations, tool/retrieval steps, prompt/model metadata, token usage, latency, scores, errors.
+- Recording/audio: duration, codec, decode errors, speakers, silence/dead air, clipping, loudness, noise/SNR, speech rate, pitch/prosody, interruptions, dropouts.
+- PBX/carrier: call legs, ringing/answer/hangup times, hangup party/cause, SIP codes, route/trunk, CDR/CEL, RTP jitter/packet loss/MOS, cost.
+- CRM/campaign: consent, lawful contact basis, lead source, segment, campaign, outcome, join keys without PII.
+
+3. Report every item as Observed, Conditionally observed, or Not observed. Do not treat protected boundaries as gaps: no decoded secrets, no full customer identifiers in reports, no persistent customer data in memory, no live listening or production changes without approval.
+
+4. Use repeatable local analyzer checks:
+
+```bash
+python3 scripts/analyze_call.py --help
+python3 -m unittest discover -s tests -v
+python3 scripts/analyze_call.py --manifest examples/call_manifest.example.json --out reports/call-analysis --stt missing --stt-language bs
+```
+
+For full local transcript generation use Whisper + pyannote after HF approval:
+
+```bash
+uv run python scripts/analyze_call.py --manifest examples/call_manifest.example.json --out reports/call-analysis --stt always --stt-language bs --diarize --num-speakers 2
+```
+
+Known local paths: `models/whisper/ggml-large-v3-turbo.bin` and `models/pyannote/speaker-diarization-community-1`. Prefer CPU Whisper if Metal/GPU crashes. A partial pyannote folder with no `config.yaml`/`pipeline.yaml` is a gap, not a working diarizer. If HF download hits Xet issues, retry with `HF_HUB_DISABLE_XET=1`. Plain `.txt` transcripts are allowed but must create gaps for missing speaker labels and timestamps; prefer JSON with `speaker`, `start`, `end`, `text`.
+
+5. Explain scores simply when asked: `FAIL` means critical evidence such as long dead air or mostly silence; `WARN` means usable but suspicious; gaps usually mean missing labels/timestamps/provider evidence. High finding counts often mean many small dropout/silence segments, not hundreds of distinct root causes.
+
+6. For Dograh turn-taking/UI tuning, verify with MCP and UI screenshots before saving. Known useful settings for the UnaViva workflow:
+
+- `Detection Strategy`: prefer `Smart Turn Analyzer` over `Transcription-based` when available.
+- `Incomplete Turn Timeout (seconds)`: start at `2`; try `1.5` only if agent waits too long, `2.5` if it still interrupts too early.
+- `Interruption Strategy`: `Minimum words`.
+- `Minimum Words Before Interruption`: `3`.
+- `Max User Idle Timeout`: consider `8-10s` for dead air, but do not use it to mask TTS/tool latency.
+- `Enhanced Timestamped Transcript`: keep enabled when available.
+
+Dograh MCP/docs currently expose no workflow field for Echo Cancellation/AEC/Noise Suppression. If needed, check provider/telephony/Pipecat/audio transport settings, not normal workflow schema.
+
+7. For Langfuse, distinguish live spans from post-call relay. Dograh platform/env Langfuse can show traces, but there may be no workflow toggle for `TOOL`, `RETRIEVER`, `EVENT`, interruptions, or detailed trace level. QA + webhook can emit post-call `timeline_events`, `langfuse_score_candidates`, `workflow_run_id`, `recording_url`, `transcript_url`, `annotations`, and `dedup_key`; this is not the same as live OpenTelemetry/Pipecat spans.
+
+8. The planned Full Observation Ingest-Orchestrator is only the connector service/workflow. It may be FastAPI+worker+DB/queue or n8n. It receives Dograh post-call webhooks, fetches Dograh/Langfuse/PBX/carrier/CRM/audio evidence, deduplicates by join keys, and writes reports/scores. It is not Dograh, Langfuse, PBX, Telnyx, or OpenAI itself.
+
+9. For repair, default to recommendation/draft/dry-run. Production changes require change ID, risk level, rollback plan, preflight, explicit approval, apply by approved actor, and post-check/test call. Block self-approval, failed dry-run, duplicate lock key, high-risk automatic apply, and any secret/PII in diff or report.
+
+## Anti-patterns
+
+- Calling transcript-only review complete call analysis.
+- Inferring prosody, packet loss, hangup cause, SIP behavior, or AEC status without recording/provider evidence.
+- Mixing planned architecture with live-verified production status.
+- Running STT unnecessarily when a reliable timestamped transcript already exists.
+- Calling QA webhook Langfuse candidates “live TOOL/RETRIEVER/EVENT spans”.
+- Treating mock dry-run or offline unit tests as end-to-end live verification.
+- Applying productive fixes without dry-run, approval, rollback, and post-check.
+- Printing, decoding, or storing credentials/customer data in logs, reports, or memory.

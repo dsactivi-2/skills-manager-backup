@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "7afde771-c2e0-4688-b660-16334eac7aa2",
+  "path": "assistant-ui",
+  "path_key": "assistant-ui",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "eadaa6d9-c659-4147-a7b7-502348fb8026",
+  "path": "n8n-extending-mcp-official",
+  "path_key": "n8n-extending-mcp-official",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

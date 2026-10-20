@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "545ab387-155b-4067-a587-efa91f9fd2c7",
+  "path": "notion-knowledge-capture",
+  "path_key": "notion-knowledge-capture",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

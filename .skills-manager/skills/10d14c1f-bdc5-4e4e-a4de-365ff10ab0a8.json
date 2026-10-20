@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "10d14c1f-bdc5-4e4e-a4de-365ff10ab0a8",
+  "path": "vercel-sandbox",
+  "path_key": "vercel-sandbox",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

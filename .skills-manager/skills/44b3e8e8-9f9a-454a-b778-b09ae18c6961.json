@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "44b3e8e8-9f9a-454a-b778-b09ae18c6961",
+  "path": "macos-local-install-inventory",
+  "path_key": "macos-local-install-inventory",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

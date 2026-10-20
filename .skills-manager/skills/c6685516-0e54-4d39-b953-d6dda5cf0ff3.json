@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "c6685516-0e54-4d39-b953-d6dda5cf0ff3",
+  "path": "writing-fragments",
+  "path_key": "writing-fragments",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

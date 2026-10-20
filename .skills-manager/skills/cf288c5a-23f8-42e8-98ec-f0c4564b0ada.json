@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "cf288c5a-23f8-42e8-98ec-f0c4564b0ada",
+  "path": "all-mcp-2",
+  "path_key": "all-mcp-2",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

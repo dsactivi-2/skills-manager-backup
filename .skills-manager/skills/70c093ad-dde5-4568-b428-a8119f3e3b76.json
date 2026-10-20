@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "70c093ad-dde5-4568-b428-a8119f3e3b76",
+  "path": "n8n-debugging-official",
+  "path_key": "n8n-debugging-official",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

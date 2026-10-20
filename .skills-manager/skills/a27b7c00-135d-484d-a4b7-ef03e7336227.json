@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a27b7c00-135d-484d-a4b7-ef03e7336227",
+  "path": "using-n8n-skills-official",
+  "path_key": "using-n8n-skills-official",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "6391ec90-60a3-452b-90ed-6eaf9f900439",
+  "path": "parallel-monitor",
+  "path_key": "parallel-monitor",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

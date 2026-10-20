@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "8ecfa038-ae68-4bd0-a03d-bd262067c288",
+  "path": "paseo-advisor",
+  "path_key": "paseo-advisor",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

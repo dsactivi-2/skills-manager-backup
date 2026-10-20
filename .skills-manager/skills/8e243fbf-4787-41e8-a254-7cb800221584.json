@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "8e243fbf-4787-41e8-a254-7cb800221584",
+  "path": "network-endpoint-diagnostics",
+  "path_key": "network-endpoint-diagnostics",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

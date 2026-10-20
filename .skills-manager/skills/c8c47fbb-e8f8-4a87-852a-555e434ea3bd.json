@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "c8c47fbb-e8f8-4a87-852a-555e434ea3bd",
+  "path": "workflow-diagram-maps",
+  "path_key": "workflow-diagram-maps",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

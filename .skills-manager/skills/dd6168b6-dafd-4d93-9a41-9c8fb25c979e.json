@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "dd6168b6-dafd-4d93-9a41-9c8fb25c979e",
+  "path": "workspace-dispatch",
+  "path_key": "workspace-dispatch",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

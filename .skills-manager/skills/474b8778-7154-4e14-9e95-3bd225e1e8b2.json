@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "474b8778-7154-4e14-9e95-3bd225e1e8b2",
+  "path": "career-asset-orchestrator",
+  "path_key": "career-asset-orchestrator",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "0530893e-596e-42bd-a364-2f091c366bf6",
+  "path": "agents-md-builder",
+  "path_key": "agents-md-builder",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

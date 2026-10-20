@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "5ebda3f9-b274-42f5-b0a4-ae6c12bffe6d",
+  "path": "okx-sentiment-tracker",
+  "path_key": "okx-sentiment-tracker",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

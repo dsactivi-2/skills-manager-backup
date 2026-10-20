@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "8a55ddcb-c247-4091-a978-84f5c8518145",
+  "path": "vps-reverse-proxy",
+  "path_key": "vps-reverse-proxy",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "768d6d26-9323-4c05-aa03-18e18f6ef3df",
+  "path": "define-goal",
+  "path_key": "define-goal",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

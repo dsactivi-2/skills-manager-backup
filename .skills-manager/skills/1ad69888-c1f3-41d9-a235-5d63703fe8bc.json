@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "1ad69888-c1f3-41d9-a235-5d63703fe8bc",
+  "path": "screenpipe-meeting-prep",
+  "path_key": "screenpipe-meeting-prep",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "8affa24d-a6ad-4890-95fa-c102c4000da0",
+  "path": "document-to-action-items",
+  "path_key": "document-to-action-items",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

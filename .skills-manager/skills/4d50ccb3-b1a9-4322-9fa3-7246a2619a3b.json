@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "4d50ccb3-b1a9-4322-9fa3-7246a2619a3b",
+  "path": "language-audit",
+  "path_key": "language-audit",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

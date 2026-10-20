@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "ab8aea53-416a-4f97-a36c-ae88e979a6e8",
+  "path": "screenpipe-recall",
+  "path_key": "screenpipe-recall",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "3af8b82e-d9b2-4f03-8daa-4282d16b5366",
+  "path": "voice-agent-prompt-builder",
+  "path_key": "voice-agent-prompt-builder",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "dfb1e624-3b6d-4d7e-b136-b6b3a20b6841",
+  "path": "opencodex-codex-home",
+  "path_key": "opencodex-codex-home",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

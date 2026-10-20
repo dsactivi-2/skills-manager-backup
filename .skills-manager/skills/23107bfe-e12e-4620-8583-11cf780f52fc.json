@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "23107bfe-e12e-4620-8583-11cf780f52fc",
+  "path": "workflow-branch",
+  "path_key": "workflow-branch",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

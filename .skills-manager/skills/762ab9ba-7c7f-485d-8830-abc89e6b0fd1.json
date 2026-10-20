@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "762ab9ba-7c7f-485d-8830-abc89e6b0fd1",
+  "path": "aspnet-core",
+  "path_key": "aspnet-core",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "eba3b2a3-cac1-45ca-9e31-d2b7f48d37b8",
+  "path": "openclaw-ai-persona-vps-bootstrap",
+  "path_key": "openclaw-ai-persona-vps-bootstrap",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

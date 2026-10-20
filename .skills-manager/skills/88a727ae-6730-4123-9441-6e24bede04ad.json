@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "88a727ae-6730-4123-9441-6e24bede04ad",
+  "path": "integrate-upwork-graphql-agent",
+  "path_key": "integrate-upwork-graphql-agent",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

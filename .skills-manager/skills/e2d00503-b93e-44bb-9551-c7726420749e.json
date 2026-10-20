@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "e2d00503-b93e-44bb-9551-c7726420749e",
+  "path": "okx-cex-smartmoney",
+  "path_key": "okx-cex-smartmoney",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

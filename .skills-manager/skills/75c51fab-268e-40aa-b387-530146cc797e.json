@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "75c51fab-268e-40aa-b387-530146cc797e",
+  "path": "langfuse-voice-call-quality-optimization",
+  "path_key": "langfuse-voice-call-quality-optimization",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "c17582c5-2d21-4656-bf5c-c67db79988d7",
+  "path": "repo-by-usecase",
+  "path_key": "repo-by-usecase",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

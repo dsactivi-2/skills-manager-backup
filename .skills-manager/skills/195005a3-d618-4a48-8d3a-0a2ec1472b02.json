@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "195005a3-d618-4a48-8d3a-0a2ec1472b02",
+  "path": "research-backed-sales-agents",
+  "path_key": "research-backed-sales-agents",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

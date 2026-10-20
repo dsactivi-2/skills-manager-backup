@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "fd34a15d-911f-43a4-8979-62d3dcc87785",
+  "path": "deployments-cicd",
+  "path_key": "deployments-cicd",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

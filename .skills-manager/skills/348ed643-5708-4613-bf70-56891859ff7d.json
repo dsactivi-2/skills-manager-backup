@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "348ed643-5708-4613-bf70-56891859ff7d",
+  "path": "rules-distill",
+  "path_key": "rules-distill",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

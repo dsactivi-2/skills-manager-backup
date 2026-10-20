@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Dograh Voice Agent"
+  short_description: "Plan Dograh voice agents safely"
+  default_prompt: "Use $build-dograh-voice-agent to design a production-ready Dograh voice agent workflow from my use case."

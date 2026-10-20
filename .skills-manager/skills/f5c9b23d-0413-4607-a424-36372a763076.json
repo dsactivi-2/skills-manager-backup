@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f5c9b23d-0413-4607-a424-36372a763076",
+  "path": "macos-hygiene-automation",
+  "path_key": "macos-hygiene-automation",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

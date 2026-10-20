@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "40bf5c6f-cafd-4f37-8463-1e2c05a666f3",
+  "path": "managed-deep-agents",
+  "path_key": "managed-deep-agents",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "8187185f-3f07-4778-9b20-c4f334216576",
+  "path": "build-dograh-voice-agent",
+  "path_key": "build-dograh-voice-agent",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

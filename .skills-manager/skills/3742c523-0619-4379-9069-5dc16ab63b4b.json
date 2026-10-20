@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "3742c523-0619-4379-9069-5dc16ab63b4b",
+  "path": "inspecting-hermes-desktop-dom",
+  "path_key": "inspecting-hermes-desktop-dom",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

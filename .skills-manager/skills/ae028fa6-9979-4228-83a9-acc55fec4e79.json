@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "ae028fa6-9979-4228-83a9-acc55fec4e79",
+  "path": "hetzner-ssh-rescue",
+  "path_key": "hetzner-ssh-rescue",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

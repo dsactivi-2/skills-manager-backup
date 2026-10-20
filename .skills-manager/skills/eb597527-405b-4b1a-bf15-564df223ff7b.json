@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "eb597527-405b-4b1a-bf15-564df223ff7b",
+  "path": "langchain-middleware",
+  "path_key": "langchain-middleware",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

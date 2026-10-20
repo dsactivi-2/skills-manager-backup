@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "11c144a3-3640-4d17-8551-2417b47c51a2",
+  "path": "cluster-orchestrator",
+  "path_key": "cluster-orchestrator",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

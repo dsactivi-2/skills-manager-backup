@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "2c45151f-6f6f-47f7-8b65-3803d9a2aa68",
+  "path": "dograh-local-dev-factory",
+  "path_key": "dograh-local-dev-factory",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

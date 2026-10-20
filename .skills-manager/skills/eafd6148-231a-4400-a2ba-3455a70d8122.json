@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "eafd6148-231a-4400-a2ba-3455a70d8122",
+  "path": "notion-meeting-intelligence",
+  "path_key": "notion-meeting-intelligence",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

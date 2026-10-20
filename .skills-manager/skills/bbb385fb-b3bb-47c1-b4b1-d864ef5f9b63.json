@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "bbb385fb-b3bb-47c1-b4b1-d864ef5f9b63",
+  "path": "ai-gateway",
+  "path_key": "ai-gateway",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

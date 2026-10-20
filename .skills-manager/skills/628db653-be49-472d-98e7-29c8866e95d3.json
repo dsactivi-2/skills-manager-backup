@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "628db653-be49-472d-98e7-29c8866e95d3",
+  "path": "voice-call-observability-audit",
+  "path_key": "voice-call-observability-audit",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

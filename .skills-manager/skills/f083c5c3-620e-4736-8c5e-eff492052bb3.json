@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f083c5c3-620e-4736-8c5e-eff492052bb3",
+  "path": "n8n-code-nodes-official",
+  "path_key": "n8n-code-nodes-official",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

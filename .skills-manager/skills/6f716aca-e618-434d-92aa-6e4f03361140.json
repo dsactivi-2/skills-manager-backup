@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "6f716aca-e618-434d-92aa-6e4f03361140",
+  "path": "dograh-huggingface-provider-debug",
+  "path_key": "dograh-huggingface-provider-debug",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "d561c292-4bca-4711-a631-6c8fc894d3ca",
+  "path": "n8n-binary-and-data-official",
+  "path_key": "n8n-binary-and-data-official",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

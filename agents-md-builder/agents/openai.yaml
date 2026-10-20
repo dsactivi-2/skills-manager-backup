@@ -1,0 +1,6 @@
+interface:
+  display_name: "AGENTS.md Builder"
+  short_description: "Create, review, and route Codex AGENTS.md guidance."
+  default_prompt: "$agents-md-builder Create or improve AGENTS.md guidance for this Codex project."
+policy:
+  allow_implicit_invocation: true

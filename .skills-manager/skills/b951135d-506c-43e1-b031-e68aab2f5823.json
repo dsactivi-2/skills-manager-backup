@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b951135d-506c-43e1-b031-e68aab2f5823",
+  "path": "hermes-openclaw-skill-converter",
+  "path_key": "hermes-openclaw-skill-converter",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

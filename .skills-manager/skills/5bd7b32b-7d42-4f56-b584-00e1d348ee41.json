@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "5bd7b32b-7d42-4f56-b584-00e1d348ee41",
+  "path": "screenpipe-writing-context",
+  "path_key": "screenpipe-writing-context",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

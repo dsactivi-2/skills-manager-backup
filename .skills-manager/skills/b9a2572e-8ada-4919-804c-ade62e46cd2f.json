@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b9a2572e-8ada-4919-804c-ade62e46cd2f",
+  "path": "orbstack-compose-port",
+  "path_key": "orbstack-compose-port",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

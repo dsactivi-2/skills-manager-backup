@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "2ed77413-d9e6-4a51-a9f7-32be4a870400",
+  "path": "hermes-langfuse-tracing",
+  "path_key": "hermes-langfuse-tracing",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

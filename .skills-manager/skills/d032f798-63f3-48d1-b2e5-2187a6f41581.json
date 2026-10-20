@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "d032f798-63f3-48d1-b2e5-2187a6f41581",
+  "path": "neon-postgres",
+  "path_key": "neon-postgres",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

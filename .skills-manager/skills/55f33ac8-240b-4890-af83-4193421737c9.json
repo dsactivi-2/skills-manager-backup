@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "55f33ac8-240b-4890-af83-4193421737c9",
+  "path": "python",
+  "path_key": "python",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

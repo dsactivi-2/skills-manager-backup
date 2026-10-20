@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "4708fa63-0878-4e44-8c0e-5ba14da12f0d",
+  "path": "context-dev",
+  "path_key": "context-dev",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

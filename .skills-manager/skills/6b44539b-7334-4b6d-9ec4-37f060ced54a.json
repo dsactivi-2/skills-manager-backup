@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "6b44539b-7334-4b6d-9ec4-37f060ced54a",
+  "path": "langchain-rag",
+  "path_key": "langchain-rag",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "3f09b6a4-9a17-40c7-8de7-9a7ce7395234",
+  "path": "livekit-bih-outbound",
+  "path_key": "livekit-bih-outbound",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

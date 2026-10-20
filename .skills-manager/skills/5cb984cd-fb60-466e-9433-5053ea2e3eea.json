@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "5cb984cd-fb60-466e-9433-5053ea2e3eea",
+  "path": "apple",
+  "path_key": "apple",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "efb519b3-b695-4e20-b005-08d2ddbf5bb2",
+  "path": "calcom",
+  "path_key": "calcom",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

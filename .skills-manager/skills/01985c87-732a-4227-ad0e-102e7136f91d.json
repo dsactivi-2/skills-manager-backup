@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "01985c87-732a-4227-ad0e-102e7136f91d",
+  "path": "live-stack-verification",
+  "path_key": "live-stack-verification",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

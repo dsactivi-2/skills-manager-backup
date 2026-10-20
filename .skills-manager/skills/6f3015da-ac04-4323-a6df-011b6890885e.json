@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "6f3015da-ac04-4323-a6df-011b6890885e",
+  "path": "file-driven-multi-session-supervision",
+  "path_key": "file-driven-multi-session-supervision",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

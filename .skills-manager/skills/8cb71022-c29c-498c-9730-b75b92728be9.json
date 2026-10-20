@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "8cb71022-c29c-498c-9730-b75b92728be9",
+  "path": "dograh-dual-instance",
+  "path_key": "dograh-dual-instance",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

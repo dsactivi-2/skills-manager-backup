@@ -1,0 +1,7 @@
+interface:
+  display_name: "Create Global MD Files"
+  short_description: "Berät zu Codex-Konfigurationsdateien"
+  default_prompt: "Use $create-global-md-files to advise me on the right Codex configuration files."
+
+policy:
+  allow_implicit_invocation: false

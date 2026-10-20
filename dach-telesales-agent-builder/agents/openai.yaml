@@ -1,0 +1,4 @@
+interface:
+  display_name: "DACH Telesales Agent Builder"
+  short_description: "Build DACH voice-sales prompts and flows"
+  default_prompt: "Use $dach-telesales-agent-builder to write a compliant German voice-sales agent prompt, objection flow, and booking logic."

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "cefa28e5-0eb2-4cea-a4d3-3e1f82442ddb",
+  "path": "project-akte-handoff",
+  "path_key": "project-akte-handoff",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f2ba82ad-237e-4deb-97ae-736c36fee3f3",
+  "path": "yeastar-tg-gateway",
+  "path_key": "yeastar-tg-gateway",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

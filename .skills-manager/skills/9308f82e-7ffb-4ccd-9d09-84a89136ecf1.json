@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "9308f82e-7ffb-4ccd-9d09-84a89136ecf1",
+  "path": "telnyx-numbers-python",
+  "path_key": "telnyx-numbers-python",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

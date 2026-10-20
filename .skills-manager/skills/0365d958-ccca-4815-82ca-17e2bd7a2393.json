@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "0365d958-ccca-4815-82ca-17e2bd7a2393",
+  "path": "dograh-selfhost-guides",
+  "path_key": "dograh-selfhost-guides",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

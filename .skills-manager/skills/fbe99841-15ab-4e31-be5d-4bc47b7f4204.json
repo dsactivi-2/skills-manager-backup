@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "fbe99841-15ab-4e31-be5d-4bc47b7f4204",
+  "path": "business-partner-research",
+  "path_key": "business-partner-research",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "df773039-f3f6-4ed4-b503-33f71909c72d",
+  "path": "release-check",
+  "path_key": "release-check",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

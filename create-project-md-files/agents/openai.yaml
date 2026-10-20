@@ -1,0 +1,7 @@
+interface:
+  display_name: "Create Project MD Files"
+  short_description: "Berät zu Projekt-Dokumentationsdateien"
+  default_prompt: "Use $create-project-md-files to advise me on project documentation files."
+
+policy:
+  allow_implicit_invocation: false

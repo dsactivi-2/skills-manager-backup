@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "e5c22169-e153-4b18-81f1-f8626cf8a5c5",
+  "path": "marketplace",
+  "path_key": "marketplace",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

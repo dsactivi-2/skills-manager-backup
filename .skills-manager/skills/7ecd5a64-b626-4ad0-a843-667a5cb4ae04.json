@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "7ecd5a64-b626-4ad0-a843-667a5cb4ae04",
+  "path": "kroki-diagrams",
+  "path_key": "kroki-diagrams",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "LinkedIn Profile Optimizer"
+  short_description: "Audit and rewrite LinkedIn profiles"
+  default_prompt: "Use $linkedin-profile-optimizer to audit and rewrite my LinkedIn profile for the people I want to attract."

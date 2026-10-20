@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "2f5fdbf6-38ab-4910-870d-7c1b784af8be",
+  "path": "voice-ai-infrastructure",
+  "path_key": "voice-ai-infrastructure",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

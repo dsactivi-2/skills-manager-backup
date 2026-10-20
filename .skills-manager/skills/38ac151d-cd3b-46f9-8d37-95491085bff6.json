@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "38ac151d-cd3b-46f9-8d37-95491085bff6",
+  "path": "screenpipe-commitment-review",
+  "path_key": "screenpipe-commitment-review",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

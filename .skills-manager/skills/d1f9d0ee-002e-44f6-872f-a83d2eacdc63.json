@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "d1f9d0ee-002e-44f6-872f-a83d2eacdc63",
+  "path": "transcript-deep-dive",
+  "path_key": "transcript-deep-dive",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

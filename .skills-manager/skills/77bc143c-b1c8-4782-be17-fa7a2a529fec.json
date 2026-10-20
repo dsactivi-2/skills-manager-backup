@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "77bc143c-b1c8-4782-be17-fa7a2a529fec",
+  "path": "hexabot-channel-creator",
+  "path_key": "hexabot-channel-creator",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "6e51ed79-7ebb-440c-b6c7-3e50bd4b84dc",
+  "path": "deep-agents-orchestration",
+  "path_key": "deep-agents-orchestration",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

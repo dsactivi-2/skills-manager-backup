@@ -1,0 +1,4 @@
+interface:
+  display_name: "Dograh MCP"
+  short_description: "Nutze Dograh per MCP sicher und dokumentationsgetrieben."
+  default_prompt: "Use this skill when working with a Dograh MCP server, Dograh agents, or Dograh documentation through Codex."

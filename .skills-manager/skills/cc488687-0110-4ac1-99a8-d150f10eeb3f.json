@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "cc488687-0110-4ac1-99a8-d150f10eeb3f",
+  "path": "agent-scorecard",
+  "path_key": "agent-scorecard",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

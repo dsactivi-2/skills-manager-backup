@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "4498068b-9fbd-4013-991f-1ab3cf8b9378",
+  "path": "tts-pronunciation-correction",
+  "path_key": "tts-pronunciation-correction",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

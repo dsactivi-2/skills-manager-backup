@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "22e72b92-361d-431f-ab5d-3a2bf09e5a10",
+  "path": "screenpipe-project-handoff",
+  "path_key": "screenpipe-project-handoff",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

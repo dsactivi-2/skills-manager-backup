@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "fb51e74f-4c51-450c-9af4-8fccad463819",
+  "path": "lovable-mcp",
+  "path_key": "lovable-mcp",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

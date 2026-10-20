@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  hermes-maximum:
+    image: nousresearch/hermes-agent:latest
+    container_name: hermes-maximum
+    restart: unless-stopped
+    network_mode: host
+    volumes:
+      - ~/.hermes:/opt/data
+      - ~/hermes-livekit-infra:/opt/livekit
+    environment:
+      - HERMES_UID=1000
+      - HERMES_GID=1000
+      - KANBAN_DISPATCH_INTERVAL=30
+    command: >
+      sh -c "
+        hermes kanban init &&
+        hermes gateway start --with-dashboard &&
+        hermes dashboard --host 0.0.0.0 --port 9119
+      "
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.hermes.rule=Host(`hermes.yourdomain.com`)"
+      - "traefik.http.routers.hermes.entrypoints=websecure"
+      - "traefik.http.routers.hermes.tls.certresolver=letsencrypt"
+      - "traefik.http.services.hermes.loadbalancer.server.port=9119"
+
+# Dokploy Hinweise:
+# - Importiere diese Datei direkt in Dokploy
+# - Passe `hermes.yourdomain.com` an deine Domain an
+# - Traefik muss im gleichen Stack laufen oder als Ingress-Controller konfiguriert sein
+# - Dieses Template enthält das Maximum aus der Repo: 13 Profiles, Orchestrator, Kanban-Dispatcher, Dashboard auf Basis von ProfilesPage.tsx, Voice-MCP, Auto-Healing via s6

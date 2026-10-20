@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "cf521af0-9c55-4816-b22b-55c67085a96a",
+  "path": "jev-evaluation",
+  "path_key": "jev-evaluation",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

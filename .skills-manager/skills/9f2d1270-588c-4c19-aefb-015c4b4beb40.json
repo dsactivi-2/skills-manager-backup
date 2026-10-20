@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "9f2d1270-588c-4c19-aefb-015c4b4beb40",
+  "path": "composio-cli",
+  "path_key": "composio-cli",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

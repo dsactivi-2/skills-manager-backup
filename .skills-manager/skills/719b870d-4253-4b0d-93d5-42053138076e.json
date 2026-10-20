@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "719b870d-4253-4b0d-93d5-42053138076e",
+  "path": "openclaw-ollama-embeddings-migration",
+  "path_key": "openclaw-ollama-embeddings-migration",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

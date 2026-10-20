@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "6723877a-90cb-4d1b-aba5-bd909f60e2cd",
+  "path": "vercel-storage",
+  "path_key": "vercel-storage",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

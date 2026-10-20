@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "d8efe0fc-48ca-4053-b63e-c130ee716a4c",
+  "path": "foundry-model-ops",
+  "path_key": "foundry-model-ops",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

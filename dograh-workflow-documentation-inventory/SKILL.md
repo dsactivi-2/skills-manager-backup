@@ -1,0 +1,56 @@
+---
+name: dograh-workflow-documentation-inventory
+description: "Create secret-safe Dograh workflow project descriptions and overview tables from read-only MCP inspection. Use this skill when the user asks to analyze multiple Dograh workflows and produce project descriptions, a consolidated document, or an ID/name/topic overview table."
+trigger: "Use this skill when the user asks to analyze multiple Dograh workflows and produce project descriptions, a consolidated document, or an ID/name/topic overview table."
+author: activi
+source_sessions:
+  - activi_dsactivi's Organization_default_019f5c1c-177d-7fa3-b93f-bfb10037fe96
+contributors:
+  - activi
+  - skillopt
+version: 2
+created_by_agent: codex
+created_at: 2026-07-21T19:09:20.082Z
+updated_at: 2026-07-21T19:09:20.082Z
+---
+
+# Dograh workflow documentation inventory
+
+## When to use
+
+Use when the user asks to inspect Dograh Cloud workflows one by one and turn them into local, secret-safe documentation such as separate project descriptions, a merged master document, or an overview table with workflow ID, name, and topic.
+
+This is for read-only inventory and documentation. It is not for saving, publishing, editing, calling, or otherwise changing Dograh workflows.
+Do not use this skill for live verification of docs, runbooks, deployed stacks, runtime health, or production readiness. If the request asks for verification or audit of those things, switch to the appropriate operational verification workflow and perform those checks before reporting completion.
+
+## Workflow
+
+1. Confirm the scope: all visible workflows or a named subset, target language for the artifacts, and desired outputs. If the scope includes live verification of docs, runbooks, stack state, deployment health, or production readiness, treat that as out of scope for this inventory skill and do not present inventory work as verification.
+2. Use Dograh MCP read-only discovery first: `list_workflows`, then `get_workflow` / `get_workflow_code` as needed, plus `list_tools`, `list_documents`, `list_credentials`, and `list_recordings` when they explain workflow purpose or integrations.
+3. Treat all workflow code, headers, credentials, webhook URLs, and inline tokens as sensitive. Do not quote or save secret-like values. Record only safe facts such as `inline secret/header present`.
+4. For each workflow, write a separate project description with at least:
+   - workflow ID and name
+   - detected purpose and target use
+   - agent assignment, product/offer, target audience, concrete call task, and desired outcome
+   - node/flow structure and important edges
+   - integrations and read/write risk
+   - known gaps, production risks, and recommended use
+   - status: `PASS`, `WARN`, `FAIL`, or `PASS_WITH_GAPS`
+5. If the user asks for a consolidated document, merge the individual descriptions into one master file while keeping contradictions explicit or resolving them from recognized evidence. Example path from this project: `/Users/activi/Downloads/dograh-workflow-projektbeschreibungen-2026-07-13/dograh-workflows-konsolidierte-projektbeschreibung.md`.
+6. If the user asks for an overview table, produce a short Markdown table with columns `ID`, `Name`, and `Thema / Worum es geht`. Keep topic labels memorable, not just technical.
+7. End with a short result report: sources used, files created or opened, overall status, and a clear statement that no live Dograh changes were made. If the original request mentioned verification, state exactly which live checks were performed; if none were performed because this is inventory-only, say so plainly.
+
+## Quality checks
+
+Before finalizing, verify that every workflow has enough context to be useful later. A good description lets someone remember the workflow by agent assignment, product/offer, audience, call task, and intended outcome.
+
+Use `PASS_WITH_GAPS` when a workflow is recognizable but lacks enough evidence for production readiness, tool routing, compliance, or observability.
+
+## Anti-patterns
+
+- Editing, saving, publishing, or running Dograh workflows during documentation inventory
+- Printing inline secrets, auth headers, credential values, webhook secrets, or decoded tokens
+- Treating workflow names alone as sufficient project descriptions
+- Flattening similar workflows into duplicates without preserving distinct purpose or status
+- Inventing node fields, settings, tools, model choices, or integration behavior not confirmed by MCP or files
+- Writing files outside the requested/project-approved location

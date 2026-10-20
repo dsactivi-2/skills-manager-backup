@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "83948db3-a54e-4377-9dfa-e0dd411f93f2",
+  "path": "gws-admin-reports",
+  "path_key": "gws-admin-reports",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "175eefb5-943f-4e62-adf2-a0ca21d719b1",
+  "path": "dograh-project-setup-agents-wizard",
+  "path_key": "dograh-project-setup-agents-wizard",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

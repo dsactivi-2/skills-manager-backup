@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "34665b44-8b53-41f6-95b8-4a9faa168c6c",
+  "path": "hermes-vps-profile-port",
+  "path_key": "hermes-vps-profile-port",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "069d6b2f-4a08-4b3f-95b8-e0b1094b6eca",
+  "path": "json2video",
+  "path_key": "json2video",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

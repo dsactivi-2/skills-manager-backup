@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a86d13fc-395c-478e-b32f-494761b1b466",
+  "path": "schedule-sim",
+  "path_key": "schedule-sim",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

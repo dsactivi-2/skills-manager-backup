@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "30f42d6f-e251-4671-ba06-20b98823424f",
+  "path": "github-issue-investigation",
+  "path_key": "github-issue-investigation",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

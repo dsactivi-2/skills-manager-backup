@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "954bfef5-53f4-45fd-935a-074927c04499",
+  "path": "livekit-docs-library",
+  "path_key": "livekit-docs-library",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

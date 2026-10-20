@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "7d2ef52a-429d-4e68-af5a-251fa1ade963",
+  "path": "composio",
+  "path_key": "composio",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

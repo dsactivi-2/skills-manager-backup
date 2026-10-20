@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "3390e7f4-213e-4bf7-bfeb-93387a56e7fa",
+  "path": "gws-drive-upload",
+  "path_key": "gws-drive-upload",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

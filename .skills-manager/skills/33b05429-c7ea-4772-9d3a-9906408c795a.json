@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "33b05429-c7ea-4772-9d3a-9906408c795a",
+  "path": "skillify-hermes-openclaw-skills",
+  "path_key": "skillify-hermes-openclaw-skills",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

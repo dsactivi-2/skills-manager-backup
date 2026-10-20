@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f9f81b25-7563-4495-87aa-a9b695e125fa",
+  "path": "security-threat-model",
+  "path_key": "security-threat-model",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

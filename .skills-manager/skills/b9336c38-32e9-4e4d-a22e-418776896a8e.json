@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b9336c38-32e9-4e4d-a22e-418776896a8e",
+  "path": "jev-eval-cli",
+  "path_key": "jev-eval-cli",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

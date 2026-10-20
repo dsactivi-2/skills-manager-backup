@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "209cb3fe-f668-4fa1-b3b2-22bacd5fc891",
+  "path": "neon-postgres-branches",
+  "path_key": "neon-postgres-branches",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

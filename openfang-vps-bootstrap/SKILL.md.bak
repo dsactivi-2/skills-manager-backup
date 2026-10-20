@@ -1,0 +1,159 @@
+---
+name: openfang-vps-bootstrap
+description: "Bootstrap and harden OpenFang on a dedicated VPS with CLI-first install, release verification, loopback defaults, gated smoke tests, and secret-safe provider/Caddy/Infisical handling."
+trigger: "Use when setting up, auditing, or repairing an OpenFang VPS installation, including provider keys, dashboard/API protection, and baseline smoke tests."
+author: activi
+source_sessions:
+  - activi_dsactivi's Organization_default_019ec808-4e4e-7093-aeb9-27e2e7bded9a
+  - activi_dsactivi's Organization_default_019ec7f8-39c8-7492-8f28-a60ec6e38f6f
+  - activi_dsactivi's Organization_default_019ec7f4-cf83-7373-8dde-79222417d631
+  - activi_dsactivi's Organization_default_019ec6d1-fa14-7be2-9a51-8478f5a05f7e
+  - activi_dsactivi's Organization_default_019ec6b3-b9ad-7501-84b7-a671a0756d10
+  - activi_dsactivi's Organization_default_019ec7e5-6a3c-7092-ad01-eb5293bd0f13
+  - activi_dsactivi's Organization_default_019ec7e4-28cd-71f2-a1e6-113b96486206
+contributors:
+  - activi
+version: 2
+created_by_agent: codex
+created_at: 2026-06-15T01:04:46.182Z
+updated_at: 2026-06-15T01:34:40.672Z
+---
+
+# OpenFang VPS bootstrap
+
+## When to use
+
+Use when installing, auditing, or repairing OpenFang on a dedicated VPS. Pair with the audited VPS workflow for approval gates, append-only reports, and secret handling.
+
+## Required context
+
+Read before touching the VPS:
+
+- `/Users/activi/Documents/Agent OS Systeme/AGENTS.md`
+- `/Users/activi/.codex/RTK.md`
+- `/Users/activi/Documents/Agent OS Systeme/reports/openclaw-ai-persona-os-install-report.md`
+- `/Users/activi/Documents/Agent OS Systeme/scripts/agent_os_audit.py`
+
+Use the configured SSH alias when present:
+
+```bash
+ssh -o BatchMode=yes openfang-vps 'hostname && id'
+```
+
+If a private key was ever posted in chat, finish only necessary recovery work and require key rotation afterward. Never print private keys, API tokens, decoded secrets, or env-file values.
+
+## Bootstrap decision
+
+Use the OpenFang CLI for first install and service checks. MCP, SDKs, A2A, channels, hands, and autonomous jobs are post-bootstrap surfaces and must stay disabled unless explicitly approved.
+
+Before install:
+
+1. Check the official OpenFang repository and releases.
+2. Pin an exact version or commit, for example `v0.6.9` / `acf2587e...`.
+3. Download the canonical release asset, for example `openfang-x86_64-unknown-linux-gnu.tar.gz`.
+4. Verify SHA256 before extraction.
+5. Do not run unverified `curl | sh`.
+6. Write a dry-run script such as `scripts/openfang_vps_apply.sh` and stop for approval.
+
+Minimum read-only checks:
+
+```bash
+uname -a
+free -h
+df -h
+ss -ltnp
+command -v openfang || true
+command -v docker || true
+systemctl list-units --type=service --state=running
+```
+
+## Target state
+
+A normal first apply phase should create this state:
+
+- dedicated `openfang` user
+- hardened systemd service
+- dashboard/API bound to `127.0.0.1:4200`
+- public ports limited to `22`, `80`, and `443` when HTTPS proxying is configured
+- UFW enabled with SSH preserved
+- SSH password login and X11 disabled
+- 4 GB swap if the VPS has none
+- local backup or rollback snapshot path documented
+- `stable` mode set
+- OFP network disabled unless approved
+- hands, channels, triggers, MCP, A2A, and autonomous actions disabled by default
+
+Post-apply checks:
+
+```bash
+openfang --version
+openfang doctor --json
+openfang status --json
+systemctl status openfang --no-pager
+ss -ltnp
+ufw status verbose
+ssh -o BatchMode=yes openfang-vps 'hostname && id'
+```
+
+Do not run `openfang doctor --repair` without separate approval because it may mutate config.
+
+## Provider keys and dashboard protection
+
+For OpenRouter, use base URL `https://openrouter.ai/api/v1`. Validate keys without printing values:
+
+```bash
+grep -q '^OPENROUTER_API_KEY=' /etc/openfang/env
+sudo tr '\\0' '\\n' </proc/$(systemctl show -p MainPID --value openfang)/environ | grep -q '^OPENROUTER_API_KEY='
+curl -fsS -o /dev/null -w '%{http_code}' -H "Authorization: Bearer $OPENROUTER_API_KEY" https://openrouter.ai/api/v1/key
+```
+
+If validation is not `HTTP 200`, stop before restart or smoke test. Ask for a new key via hidden local entry or a chmod `600` local secret file, never chat.
+
+If OpenFang API auth is missing or unclear, put Caddy Basic Auth in front of the full domain, including `/api/*`. Generate or hidden-enter the password, write only a bcrypt hash, then run:
+
+```bash
+caddy validate --config /etc/caddy/Caddyfile
+systemctl reload caddy
+curl -I https://openfang.activi.io/api/agents
+```
+
+Without Basic Auth, `/api/agents` must return `401`. With Basic Auth but without OpenFang API key, document the observed behavior. Stop if Basic Auth does not protect the route.
+
+For Infisical, prefer Machine Identity plus CLI/API pull-only sync into `/etc/openfang/env`. Do not install Docker/Kubernetes/Terraform integrations or Infisical Agent for a plain systemd VPS unless there is a concrete need. Required inputs: `INFISICAL_URL`, non-secret `INFISICAL_CLIENT_ID`, project, environment, path, and secret names such as `OPENROUTER_API_KEY` and `OPENFANG_API_KEY`. The `INFISICAL_CLIENT_SECRET` is entered hidden on the VPS. Initial permissions should be read-only.
+
+## Active hand exception
+
+Baseline smoke tests normally require zero active hands. If the user deliberately enabled `Browser Hand`, treat exactly one active `Browser Hand` / `browser-hand` as an approved exception, not a stop reason.
+
+PASS only when:
+
+- exactly the approved Browser Hand is active, or no hands are active
+- no other hands are active
+- no triggers, channels, MCP servers, A2A, cron jobs, or autonomous jobs are active
+- OpenFang still listens only on loopback for `4200`
+- no unexpected public ports are open
+
+FAIL if any additional hand or autonomous surface is active.
+
+## Smoke test
+
+After baseline passes, send only a harmless text prompt to the assistant, for example:
+
+```text
+Antworte nur mit: OpenFang Smoke Test OK
+```
+
+Do not trigger browser navigation, shell commands, file operations, channels, hands, or external actions during the smoke test. Record provider/model, whether a response arrived, whether tools were used, whether Browser Hand was unused, and `PASS`, `PASS_WITH_GAPS`, or `FAIL`.
+
+## Anti-patterns
+
+- Using MCP or SDKs as the initial bootstrap path
+- Running installer scripts without release and checksum verification
+- Leaving OpenFang publicly bound on the dashboard/API port
+- Enabling Browser Hand, channels, triggers, MCP, A2A, or OFP as part of basic install
+- Treating a user-approved Browser Hand as a failure without checking for extra active surfaces
+- Running repair commands or live browser actions during a harmless smoke test
+- Rotating SSH or firewall settings before confirming non-interactive access still works
+- Restarting OpenFang after a failed provider-key validation
+- Writing plaintext Basic Auth passwords or provider keys to reports or chat
+- Installing broad Infisical integrations when pull-only Machine Identity sync is enough

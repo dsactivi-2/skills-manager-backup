@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "43aa76df-58e9-46e0-8d37-2fc9fd9923c4",
+  "path": "chat-sdk",
+  "path_key": "chat-sdk",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

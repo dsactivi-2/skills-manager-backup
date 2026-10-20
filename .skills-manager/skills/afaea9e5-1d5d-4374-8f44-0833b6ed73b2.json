@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "afaea9e5-1d5d-4374-8f44-0833b6ed73b2",
+  "path": "earn-hunter",
+  "path_key": "earn-hunter",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

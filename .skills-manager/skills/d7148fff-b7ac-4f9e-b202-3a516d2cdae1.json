@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "d7148fff-b7ac-4f9e-b202-3a516d2cdae1",
+  "path": "repo-scan",
+  "path_key": "repo-scan",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

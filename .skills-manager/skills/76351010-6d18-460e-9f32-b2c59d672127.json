@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "76351010-6d18-460e-9f32-b2c59d672127",
+  "path": "langgraph-cli",
+  "path_key": "langgraph-cli",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "5525cc54-bb1d-47ec-8ed1-acc6ba7e0201",
+  "path": "gws-slides",
+  "path_key": "gws-slides",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

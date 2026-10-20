@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "83cc439e-ab4f-4561-a3cb-cffb9d8f2a84",
+  "path": "gws-gmail-reply",
+  "path_key": "gws-gmail-reply",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

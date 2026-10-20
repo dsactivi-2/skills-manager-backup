@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "e0dbfd2c-0f9f-419c-b8c5-81cb3d8297e1",
+  "path": "hermes-config-persistence",
+  "path_key": "hermes-config-persistence",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

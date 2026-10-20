@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "35c6fccf-7cfd-465d-9337-b590c9ddd74e",
+  "path": "paseo-handoff",
+  "path_key": "paseo-handoff",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

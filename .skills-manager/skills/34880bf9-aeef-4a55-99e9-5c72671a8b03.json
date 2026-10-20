@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "34880bf9-aeef-4a55-99e9-5c72671a8b03",
+  "path": "dograh-mcp",
+  "path_key": "dograh-mcp",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "dc2a6cfb-59c2-45cd-afe0-ff672141094b",
+  "path": "foundry-multistack-voice-agent",
+  "path_key": "foundry-multistack-voice-agent",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

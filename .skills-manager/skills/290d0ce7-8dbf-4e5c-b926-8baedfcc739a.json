@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "290d0ce7-8dbf-4e5c-b926-8baedfcc739a",
+  "path": "agent-onboard",
+  "path_key": "agent-onboard",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

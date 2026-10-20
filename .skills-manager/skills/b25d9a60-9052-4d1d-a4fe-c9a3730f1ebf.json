@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b25d9a60-9052-4d1d-a4fe-c9a3730f1ebf",
+  "path": "n8n-expressions-official",
+  "path_key": "n8n-expressions-official",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

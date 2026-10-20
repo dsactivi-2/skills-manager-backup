@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "89ea2e37-0725-4d8b-97d4-394b6f32aee7",
+  "path": "github-issue-to-pr",
+  "path_key": "github-issue-to-pr",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

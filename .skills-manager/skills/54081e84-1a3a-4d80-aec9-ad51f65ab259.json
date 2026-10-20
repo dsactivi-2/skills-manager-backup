@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "54081e84-1a3a-4d80-aec9-ad51f65ab259",
+  "path": "tts-ssml-prompt-hardening",
+  "path_key": "tts-ssml-prompt-hardening",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

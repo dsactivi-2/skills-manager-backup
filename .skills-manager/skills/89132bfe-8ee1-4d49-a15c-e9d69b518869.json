@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "89132bfe-8ee1-4d49-a15c-e9d69b518869",
+  "path": "macos-network-health",
+  "path_key": "macos-network-health",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

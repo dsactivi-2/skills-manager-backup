@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "13f0522d-2a90-4dd4-a22c-fb3ade1204ef",
+  "path": "dach-telesales-agent-builder",
+  "path_key": "dach-telesales-agent-builder",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "bc9404dc-bd34-478c-ba5b-11a4db3d73cb",
+  "path": "jev-search",
+  "path_key": "jev-search",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

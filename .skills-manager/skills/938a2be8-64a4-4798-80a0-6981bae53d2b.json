@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "938a2be8-64a4-4798-80a0-6981bae53d2b",
+  "path": "dograh-upstream-platform",
+  "path_key": "dograh-upstream-platform",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

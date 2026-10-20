@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "2a3af5e4-cefe-47ee-97d5-9b24cb4babfb",
+  "path": "next-forge",
+  "path_key": "next-forge",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

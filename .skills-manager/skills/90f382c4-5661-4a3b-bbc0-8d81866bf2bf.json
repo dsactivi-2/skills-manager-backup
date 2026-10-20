@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "90f382c4-5661-4a3b-bbc0-8d81866bf2bf",
+  "path": "screenpipe-project-status",
+  "path_key": "screenpipe-project-status",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

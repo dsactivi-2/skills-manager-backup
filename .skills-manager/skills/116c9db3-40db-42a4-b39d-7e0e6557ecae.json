@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "116c9db3-40db-42a4-b39d-7e0e6557ecae",
+  "path": "screenpipe-incident-timeline",
+  "path_key": "screenpipe-incident-timeline",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

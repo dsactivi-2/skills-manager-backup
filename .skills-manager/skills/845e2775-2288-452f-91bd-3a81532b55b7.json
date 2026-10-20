@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "845e2775-2288-452f-91bd-3a81532b55b7",
+  "path": "latency-triage",
+  "path_key": "latency-triage",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

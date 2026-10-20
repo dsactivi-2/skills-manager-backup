@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "724058d1-4e0e-4fd0-b069-703c338b5fc1",
+  "path": "telnyx-sip-python",
+  "path_key": "telnyx-sip-python",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

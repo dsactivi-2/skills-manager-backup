@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "ea3c9439-96f7-4b03-866f-5d2d6e46e2c7",
+  "path": "kanban",
+  "path_key": "kanban",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

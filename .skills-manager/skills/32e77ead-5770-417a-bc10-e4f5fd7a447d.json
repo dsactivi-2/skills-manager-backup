@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "32e77ead-5770-417a-bc10-e4f5fd7a447d",
+  "path": "screenpipe-durable-learning",
+  "path_key": "screenpipe-durable-learning",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

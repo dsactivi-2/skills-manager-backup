@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "d30c8443-450a-403f-8af2-0e4f282d711b",
+  "path": "dograh-workflow-documentation-inventory",
+  "path_key": "dograh-workflow-documentation-inventory",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

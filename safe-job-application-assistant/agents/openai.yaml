@@ -1,0 +1,4 @@
+interface:
+  display_name: "Safe Job Application Assistant"
+  short_description: "Prepare job applications with review gates"
+  default_prompt: "Use $safe-job-application-assistant to rank jobs and prepare applications, but stop before any final submission."

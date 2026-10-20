@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "1707b3b6-0175-46a3-b70e-9dfd380f5505",
+  "path": "langchain-fundamentals",
+  "path_key": "langchain-fundamentals",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

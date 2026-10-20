@@ -1,0 +1,4 @@
+interface:
+  display_name: "Telesales Prompt Writer"
+  short_description: "Write production telesales agent prompts"
+  default_prompt: "Use $write-telesales-agent-prompts to draft a production-ready prompt for an outbound telesales voice agent."

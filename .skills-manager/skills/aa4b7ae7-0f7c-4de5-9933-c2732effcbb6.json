@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "aa4b7ae7-0f7c-4de5-9933-c2732effcbb6",
+  "path": "dograh-telesales-base-template-builder",
+  "path_key": "dograh-telesales-base-template-builder",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

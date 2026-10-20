@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "203bff24-de50-4894-934f-43760f49938a",
+  "path": "node-package-installation",
+  "path_key": "node-package-installation",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

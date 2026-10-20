@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "dd5f668d-0ced-4e45-b74c-def547ce026e",
+  "path": "mcp-configuration-synchronization",
+  "path_key": "mcp-configuration-synchronization",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

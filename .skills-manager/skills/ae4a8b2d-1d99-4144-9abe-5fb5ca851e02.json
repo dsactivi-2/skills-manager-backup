@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "ae4a8b2d-1d99-4144-9abe-5fb5ca851e02",
+  "path": "fictional-erotica",
+  "path_key": "fictional-erotica",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

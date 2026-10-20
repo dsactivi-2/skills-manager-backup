@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b1cbfe1c-581f-4ee7-bab6-7f89f808e45c",
+  "path": "dograh-stepwise-tool-wiring",
+  "path_key": "dograh-stepwise-tool-wiring",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

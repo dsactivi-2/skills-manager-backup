@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "e86e375a-8c8b-43cb-94ad-a06b66d50634",
+  "path": "jobstep-crm-supabase",
+  "path_key": "jobstep-crm-supabase",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

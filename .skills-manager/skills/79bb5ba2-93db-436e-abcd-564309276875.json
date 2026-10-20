@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "79bb5ba2-93db-436e-abcd-564309276875",
+  "path": "gws-workflow-standup-report",
+  "path_key": "gws-workflow-standup-report",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

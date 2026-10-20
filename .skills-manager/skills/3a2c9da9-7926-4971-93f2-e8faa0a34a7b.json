@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "3a2c9da9-7926-4971-93f2-e8faa0a34a7b",
+  "path": "turbopack",
+  "path_key": "turbopack",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

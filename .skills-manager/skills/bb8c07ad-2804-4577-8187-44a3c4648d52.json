@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "bb8c07ad-2804-4577-8187-44a3c4648d52",
+  "path": "maestri-workspace",
+  "path_key": "maestri-workspace",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

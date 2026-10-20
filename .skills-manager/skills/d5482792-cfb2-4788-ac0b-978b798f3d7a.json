@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "d5482792-cfb2-4788-ac0b-978b798f3d7a",
+  "path": "github-agent-tooling",
+  "path_key": "github-agent-tooling",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "cba55a2b-b086-424c-a4e6-6e330584520b",
+  "path": "test-scenarios",
+  "path_key": "test-scenarios",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

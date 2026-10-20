@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "3c59045e-056e-4468-95ba-6e305b0513c6",
+  "path": "n8n-livekit-outbound",
+  "path_key": "n8n-livekit-outbound",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

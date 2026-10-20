@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "30472984-2c3a-4d19-8aaf-203d29a81282",
+  "path": "telnyx-voice-python",
+  "path_key": "telnyx-voice-python",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

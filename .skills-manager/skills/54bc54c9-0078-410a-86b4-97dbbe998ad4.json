@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "54bc54c9-0078-410a-86b4-97dbbe998ad4",
+  "path": "write-telesales-agent-prompts",
+  "path_key": "write-telesales-agent-prompts",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

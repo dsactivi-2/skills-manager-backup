@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "16607654-2a6b-4c77-8f0b-22992313e834",
+  "path": "jev-computer-use",
+  "path_key": "jev-computer-use",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

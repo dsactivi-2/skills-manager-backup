@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "49fbd6e6-08cf-46f7-a18e-d1f1be49df14",
+  "path": "screenpipe-research-synthesis",
+  "path_key": "screenpipe-research-synthesis",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

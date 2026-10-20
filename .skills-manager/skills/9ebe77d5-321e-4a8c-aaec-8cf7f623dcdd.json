@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "9ebe77d5-321e-4a8c-aaec-8cf7f623dcdd",
+  "path": "de-job-portal-leads",
+  "path_key": "de-job-portal-leads",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

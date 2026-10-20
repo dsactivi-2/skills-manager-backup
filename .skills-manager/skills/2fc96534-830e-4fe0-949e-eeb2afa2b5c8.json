@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "2fc96534-830e-4fe0-949e-eeb2afa2b5c8",
+  "path": "macos-desktop-app-installation",
+  "path_key": "macos-desktop-app-installation",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b2a86e1f-6fb6-40e4-996c-21ca25b731ca",
+  "path": "grok-build",
+  "path_key": "grok-build",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

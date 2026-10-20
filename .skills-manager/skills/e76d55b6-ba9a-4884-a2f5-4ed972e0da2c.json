@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "e76d55b6-ba9a-4884-a2f5-4ed972e0da2c",
+  "path": "create-session-md-files",
+  "path_key": "create-session-md-files",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

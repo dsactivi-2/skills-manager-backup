@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "8cf120b8-d902-4eb8-a86f-bbf4b345ae8b",
+  "path": "figma-generate-design",
+  "path_key": "figma-generate-design",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

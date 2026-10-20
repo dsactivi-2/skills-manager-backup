@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "cf790f4d-1041-4175-aa37-87b1293e4dd5",
+  "path": "figma-create-design-system-rules",
+  "path_key": "figma-create-design-system-rules",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

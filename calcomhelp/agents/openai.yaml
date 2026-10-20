@@ -1,0 +1,5 @@
+interface:
+  display_name: Cal.com Help
+  short_description: Cal.com product setup, event types, and troubleshooting
+  default_prompt: Use $skill-name to set up Cal.com event types, availability, workflows,
+    or embeds.

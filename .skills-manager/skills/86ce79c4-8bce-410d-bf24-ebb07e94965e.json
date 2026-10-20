@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "86ce79c4-8bce-410d-bf24-ebb07e94965e",
+  "path": "huggingface-hub",
+  "path_key": "huggingface-hub",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

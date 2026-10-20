@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "c6f9282f-d1b2-4092-b4a1-eca95884ce45",
+  "path": "gws-sheets",
+  "path_key": "gws-sheets",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

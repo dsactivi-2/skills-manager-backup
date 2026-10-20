@@ -1,0 +1,4 @@
+interface:
+  display_name: "Hexabot Channel Creator"
+  short_description: "Build and review Hexabot v3 channels"
+  default_prompt: "Use $hexabot-channel-creator to design and implement a Hexabot v3 channel."

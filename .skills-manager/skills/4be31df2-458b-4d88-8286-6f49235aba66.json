@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "4be31df2-458b-4d88-8286-6f49235aba66",
+  "path": "hermes-skills",
+  "path_key": "hermes-skills",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

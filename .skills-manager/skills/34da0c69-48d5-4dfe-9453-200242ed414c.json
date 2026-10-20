@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "34da0c69-48d5-4dfe-9453-200242ed414c",
+  "path": "basin",
+  "path_key": "basin",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

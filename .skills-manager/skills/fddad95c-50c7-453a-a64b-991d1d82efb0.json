@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "fddad95c-50c7-453a-a64b-991d1d82efb0",
+  "path": "gws-sheets-append",
+  "path_key": "gws-sheets-append",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

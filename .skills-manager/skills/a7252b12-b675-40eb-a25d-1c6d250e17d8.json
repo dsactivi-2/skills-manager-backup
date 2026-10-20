@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a7252b12-b675-40eb-a25d-1c6d250e17d8",
+  "path": "update-md-files",
+  "path_key": "update-md-files",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "4223e0ba-05f0-4c5f-a5b3-68251f2d637b",
+  "path": "parallel-web-search",
+  "path_key": "parallel-web-search",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

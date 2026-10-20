@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f562f4db-fed7-4f7e-bd99-e830652256d0",
+  "path": "deep-agents-memory",
+  "path_key": "deep-agents-memory",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

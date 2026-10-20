@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a16b632c-6a22-4ec8-8b29-747be6eea16f",
+  "path": "sandbox-migrate-to-next-2",
+  "path_key": "sandbox-migrate-to-next-2",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

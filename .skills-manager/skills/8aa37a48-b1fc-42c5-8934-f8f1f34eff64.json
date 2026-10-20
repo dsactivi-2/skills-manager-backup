@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "8aa37a48-b1fc-42c5-8934-f8f1f34eff64",
+  "path": "shell-scripting",
+  "path_key": "shell-scripting",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

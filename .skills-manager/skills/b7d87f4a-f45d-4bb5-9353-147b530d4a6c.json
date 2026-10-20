@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b7d87f4a-f45d-4bb5-9353-147b530d4a6c",
+  "path": "maestri",
+  "path_key": "maestri",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

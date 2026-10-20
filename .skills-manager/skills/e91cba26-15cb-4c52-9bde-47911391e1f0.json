@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "e91cba26-15cb-4c52-9bde-47911391e1f0",
+  "path": "chatgpt-apps",
+  "path_key": "chatgpt-apps",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "df898e1c-8edc-4b68-9c11-6018765cfc32",
+  "path": "ideation",
+  "path_key": "ideation",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

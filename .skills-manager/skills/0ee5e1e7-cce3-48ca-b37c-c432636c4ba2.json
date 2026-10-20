@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "0ee5e1e7-cce3-48ca-b37c-c432636c4ba2",
+  "path": "neon-ai-gateway",
+  "path_key": "neon-ai-gateway",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "bdb5f550-1877-40a6-9019-544f3e55a3ed",
+  "path": "balkan-voice-agent-stack",
+  "path_key": "balkan-voice-agent-stack",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "63e367d4-e361-492b-8a27-643d9cc16b90",
+  "path": "n8n-livekit-campaign-orchestration",
+  "path_key": "n8n-livekit-campaign-orchestration",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

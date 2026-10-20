@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "8685671c-193e-47b1-9edf-72336bcc277d",
+  "path": "zep-memory-platform",
+  "path_key": "zep-memory-platform",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

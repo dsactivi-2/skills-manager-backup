@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "c8164f6b-1499-4f7c-842b-4d36bd551b87",
+  "path": "defang",
+  "path_key": "defang",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

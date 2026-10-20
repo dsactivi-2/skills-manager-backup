@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "73a233ef-9945-45af-86b7-0209b63fc3e2",
+  "path": "hermes-profile-distributions",
+  "path_key": "hermes-profile-distributions",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

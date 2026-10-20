@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "5a5ea820-68ce-4b05-8821-84b4d98f91bf",
+  "path": "dograh-voice-workflow-optimizer-2",
+  "path_key": "dograh-voice-workflow-optimizer-2",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

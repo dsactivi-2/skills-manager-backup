@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b27f7092-28fa-41bb-bf48-a27d64e0bbc1",
+  "path": "cua-driver-rs",
+  "path_key": "cua-driver-rs",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

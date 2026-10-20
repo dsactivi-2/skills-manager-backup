@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "eea837ad-b0b8-42ce-8a45-263053e592c9",
+  "path": "knowledge-gap",
+  "path_key": "knowledge-gap",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

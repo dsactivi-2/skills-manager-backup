@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "5c0ca222-d08d-4544-966d-789c4e6998f7",
+  "path": "hf-diffusion-space-demo",
+  "path_key": "hf-diffusion-space-demo",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "8f3d1575-6ee3-467c-9089-a0bec33fac28",
+  "path": "langgraph-human-in-the-loop",
+  "path_key": "langgraph-human-in-the-loop",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

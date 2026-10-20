@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "16412c47-8942-4d93-bdba-b166145a710a",
+  "path": "dograh-asterisk-ari",
+  "path_key": "dograh-asterisk-ari",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

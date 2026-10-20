@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "759fe61b-aa13-4f3d-aaef-88902c3748a3",
+  "path": "ecc-recipes",
+  "path_key": "ecc-recipes",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

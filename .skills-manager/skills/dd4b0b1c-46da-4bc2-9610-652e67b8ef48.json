@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "dd4b0b1c-46da-4bc2-9610-652e67b8ef48",
+  "path": "jev-skill-select",
+  "path_key": "jev-skill-select",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

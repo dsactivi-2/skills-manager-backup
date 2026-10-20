@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "bd83bd2a-e087-403a-8f40-b7f17e3f6363",
+  "path": "openui-setup",
+  "path_key": "openui-setup",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

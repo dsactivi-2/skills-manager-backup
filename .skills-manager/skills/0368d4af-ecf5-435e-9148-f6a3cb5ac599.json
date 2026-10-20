@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "0368d4af-ecf5-435e-9148-f6a3cb5ac599",
+  "path": "okx-cex-earn",
+  "path_key": "okx-cex-earn",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

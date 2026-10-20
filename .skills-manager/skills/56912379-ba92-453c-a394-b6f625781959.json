@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "56912379-ba92-453c-a394-b6f625781959",
+  "path": "livekit-agent-from-brief",
+  "path_key": "livekit-agent-from-brief",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

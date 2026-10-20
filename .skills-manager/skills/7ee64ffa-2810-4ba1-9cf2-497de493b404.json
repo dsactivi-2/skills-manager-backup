@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "7ee64ffa-2810-4ba1-9cf2-497de493b404",
+  "path": "parallel-findall",
+  "path_key": "parallel-findall",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

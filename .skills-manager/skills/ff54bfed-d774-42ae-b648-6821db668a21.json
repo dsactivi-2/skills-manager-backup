@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "ff54bfed-d774-42ae-b648-6821db668a21",
+  "path": "hexabot-action-creator",
+  "path_key": "hexabot-action-creator",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

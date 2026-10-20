@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "440736f9-f7dc-4d54-bcb0-bce11269202f",
+  "path": "neon-object-storage",
+  "path_key": "neon-object-storage",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

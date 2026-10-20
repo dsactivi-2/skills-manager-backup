@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "efd7e1dc-168c-4fb0-b250-724264912ea7",
+  "path": "hookify-rules",
+  "path_key": "hookify-rules",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

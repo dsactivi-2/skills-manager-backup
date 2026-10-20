@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "883f0e8f-b788-482d-9b5a-c3afeac8a279",
+  "path": "dokploy-ssh-key-management",
+  "path_key": "dokploy-ssh-key-management",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

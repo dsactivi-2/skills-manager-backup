@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "ea30ba65-342b-46c1-ab16-33b54a60da96",
+  "path": "job-search-mcp",
+  "path_key": "job-search-mcp",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

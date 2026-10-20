@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "4d8bf70c-6bd8-46fb-b6e8-2ee06128da59",
+  "path": "migrate-honcho-ts",
+  "path_key": "migrate-honcho-ts",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

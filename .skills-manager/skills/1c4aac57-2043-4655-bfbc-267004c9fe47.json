@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "1c4aac57-2043-4655-bfbc-267004c9fe47",
+  "path": "mac-hygiene-verify-first",
+  "path_key": "mac-hygiene-verify-first",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

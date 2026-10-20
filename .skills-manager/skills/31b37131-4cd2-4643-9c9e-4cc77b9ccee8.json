@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "31b37131-4cd2-4643-9c9e-4cc77b9ccee8",
+  "path": "sentry-cli",
+  "path_key": "sentry-cli",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

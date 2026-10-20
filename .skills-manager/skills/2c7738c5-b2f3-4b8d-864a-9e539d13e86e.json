@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "2c7738c5-b2f3-4b8d-864a-9e539d13e86e",
+  "path": "telesales-voice-agent-builder",
+  "path_key": "telesales-voice-agent-builder",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

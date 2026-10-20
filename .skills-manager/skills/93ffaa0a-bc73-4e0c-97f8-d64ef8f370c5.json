@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "93ffaa0a-bc73-4e0c-97f8-d64ef8f370c5",
+  "path": "infrastructure-forensics",
+  "path_key": "infrastructure-forensics",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

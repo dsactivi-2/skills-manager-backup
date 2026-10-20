@@ -1,0 +1,4 @@
+interface:
+  display_name: "Telesales Voice Agent Builder"
+  short_description: "Build and tune natural telesales voice agents"
+  default_prompt: "Use $telesales-voice-agent-builder to build a complete telesales voice-agent configuration for my product, audience, and sales goal."

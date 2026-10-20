@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "dfadcd90-681a-4d24-937b-c73282cf3b4a",
+  "path": "hermes-acp-integration",
+  "path_key": "hermes-acp-integration",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

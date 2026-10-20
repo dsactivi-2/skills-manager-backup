@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "6dc1ad11-c455-4bb7-a477-673bfa03b0f1",
+  "path": "cloud-crm",
+  "path_key": "cloud-crm",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

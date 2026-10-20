@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "8215d59c-3ee1-4540-aafa-4a976f548e00",
+  "path": "gonopbx-telephony-integration",
+  "path_key": "gonopbx-telephony-integration",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

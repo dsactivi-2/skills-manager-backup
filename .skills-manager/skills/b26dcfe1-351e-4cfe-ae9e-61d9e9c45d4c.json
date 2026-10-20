@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b26dcfe1-351e-4cfe-ae9e-61d9e9c45d4c",
+  "path": "deep-agents-core",
+  "path_key": "deep-agents-core",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "e16807cd-7c13-4473-8c37-5b4d0abce9ed",
+  "path": "vercel-deploy",
+  "path_key": "vercel-deploy",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

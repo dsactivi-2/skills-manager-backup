@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "cfcc4a8a-988c-4750-aa1d-2c6e45225b20",
+  "path": "screenpipe-focus-review",
+  "path_key": "screenpipe-focus-review",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

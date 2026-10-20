@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f74cd169-852a-4c5d-b5c4-fc1c6ae65cf9",
+  "path": "notion-research-documentation",
+  "path_key": "notion-research-documentation",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "db7176fa-1cc9-4d7b-b452-2937988e7a08",
+  "path": "dograh-voice-agent-craft",
+  "path_key": "dograh-voice-agent-craft",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

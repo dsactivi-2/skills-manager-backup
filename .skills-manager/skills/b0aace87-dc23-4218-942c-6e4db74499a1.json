@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b0aace87-dc23-4218-942c-6e4db74499a1",
+  "path": "azure-diagrams",
+  "path_key": "azure-diagrams",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

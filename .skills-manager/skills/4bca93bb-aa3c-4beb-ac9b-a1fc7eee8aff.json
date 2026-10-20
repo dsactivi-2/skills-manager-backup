@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "4bca93bb-aa3c-4beb-ac9b-a1fc7eee8aff",
+  "path": "livekit-simulations",
+  "path_key": "livekit-simulations",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

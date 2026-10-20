@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "9d36c974-65dd-42b1-ac96-a5a0bc3fef29",
+  "path": "neon-postgres-egress-optimizer",
+  "path_key": "neon-postgres-egress-optimizer",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

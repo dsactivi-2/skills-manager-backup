@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "31ff77db-802b-4adb-a2c1-49e7762f07b9",
+  "path": "supabase-mysql-cutover",
+  "path_key": "supabase-mysql-cutover",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

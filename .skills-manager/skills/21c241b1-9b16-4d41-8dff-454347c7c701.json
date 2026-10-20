@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "21c241b1-9b16-4d41-8dff-454347c7c701",
+  "path": "verify-first-workflow",
+  "path_key": "verify-first-workflow",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

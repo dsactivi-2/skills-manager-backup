@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "6eef91d8-8a60-4a50-b514-c11d6eb98c5f",
+  "path": "n8n-data-tables-official",
+  "path_key": "n8n-data-tables-official",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

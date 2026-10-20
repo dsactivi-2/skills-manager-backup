@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "56275e96-49ad-4e9c-a20b-4eed220eeb8c",
+  "path": "md-skills-hub",
+  "path_key": "md-skills-hub",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

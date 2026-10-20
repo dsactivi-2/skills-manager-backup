@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "770ca1a9-4bc9-41eb-b376-7e01df452659",
+  "path": "run-simulation",
+  "path_key": "run-simulation",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

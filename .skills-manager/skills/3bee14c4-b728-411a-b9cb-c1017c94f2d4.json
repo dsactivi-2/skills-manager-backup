@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "3bee14c4-b728-411a-b9cb-c1017c94f2d4",
+  "path": "assemblyai",
+  "path_key": "assemblyai",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

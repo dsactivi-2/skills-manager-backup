@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "32ebc0bb-5e25-4f64-a442-719d9fbf0a76",
+  "path": "simulang",
+  "path_key": "simulang",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

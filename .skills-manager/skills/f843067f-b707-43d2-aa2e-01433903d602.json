@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f843067f-b707-43d2-aa2e-01433903d602",
+  "path": "direct-instructions",
+  "path_key": "direct-instructions",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

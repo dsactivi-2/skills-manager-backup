@@ -1,0 +1,16 @@
+interface:
+  display_name: "Cloud CRM"
+  short_description: "Cloudflare CRM Worker MCP"
+  default_prompt: "Use $cloud-crm. Check the stored Worker token, ask whether to keep it or set a new one, persist it to all backup stores, then start the Cloudflare CRM MCP."
+  brand_color: "#F6821F"
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "crm-remote"
+      description: "Cloudflare Worker CRM MCP (crm-mysql)"
+      transport: "streamable_http"
+      url: "https://crm-pipedrive-worker.6f484zn9bd.workers.dev/mcp"
+
+policy:
+  allow_implicit_invocation: true

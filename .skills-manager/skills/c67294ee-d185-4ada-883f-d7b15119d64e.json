@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "c67294ee-d185-4ada-883f-d7b15119d64e",
+  "path": "gws-workflow-email-to-task",
+  "path_key": "gws-workflow-email-to-task",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

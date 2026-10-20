@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "049d767a-0001-48d0-93b4-96e85f9db46d",
+  "path": "manage-skills",
+  "path_key": "manage-skills",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "git",
+    "ref": "https://github.com/dsactivi-2/skills-manager-back",
+    "subpath": "skills/manage-skills",
+    "branch": null
+  }
+}

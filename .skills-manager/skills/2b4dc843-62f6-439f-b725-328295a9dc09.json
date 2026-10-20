@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "2b4dc843-62f6-439f-b725-328295a9dc09",
+  "path": "screenpipe-process-guide",
+  "path_key": "screenpipe-process-guide",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

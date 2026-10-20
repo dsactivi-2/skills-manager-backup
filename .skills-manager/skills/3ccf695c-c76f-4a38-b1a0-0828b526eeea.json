@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "3ccf695c-c76f-4a38-b1a0-0828b526eeea",
+  "path": "bolna-voice-prompt",
+  "path_key": "bolna-voice-prompt",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

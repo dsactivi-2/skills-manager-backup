@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "c9c4e677-5983-4779-ace7-c4ad40fbf7d1",
+  "path": "next-cache-components",
+  "path_key": "next-cache-components",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

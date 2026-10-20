@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "de5bfbf8-d823-46cd-a11c-4aec6cbd00f7",
+  "path": "codex-desktop-gateway",
+  "path_key": "codex-desktop-gateway",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "bffe09ac-3447-4857-85d7-eaad06648fd4",
+  "path": "sms-simulation",
+  "path_key": "sms-simulation",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b2d36272-4519-4bb4-a9f1-2ec7aeab855f",
+  "path": "eraser",
+  "path_key": "eraser",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "51a21b55-16a2-413f-897c-17ae44df2a7b",
+  "path": "tauri-desktop-build",
+  "path_key": "tauri-desktop-build",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a75b3689-6107-4f7e-b848-f3dd11a43472",
+  "path": "langgraph-persistence",
+  "path_key": "langgraph-persistence",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "07f82b96-6dae-4212-9df5-0b2a721bb12a",
+  "path": "agent-database-mcp",
+  "path_key": "agent-database-mcp",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

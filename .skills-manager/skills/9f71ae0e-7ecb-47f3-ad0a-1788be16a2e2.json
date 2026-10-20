@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "9f71ae0e-7ecb-47f3-ad0a-1788be16a2e2",
+  "path": "hermes-memory-providers",
+  "path_key": "hermes-memory-providers",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

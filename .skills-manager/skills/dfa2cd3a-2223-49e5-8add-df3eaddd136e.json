@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "dfa2cd3a-2223-49e5-8add-df3eaddd136e",
+  "path": "agents-md-toolkit",
+  "path_key": "agents-md-toolkit",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

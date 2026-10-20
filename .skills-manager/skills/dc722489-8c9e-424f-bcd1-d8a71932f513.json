@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "dc722489-8c9e-424f-bcd1-d8a71932f513",
+  "path": "dograh-telesales-pacing",
+  "path_key": "dograh-telesales-pacing",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

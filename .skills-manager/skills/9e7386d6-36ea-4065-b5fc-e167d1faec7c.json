@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "9e7386d6-36ea-4065-b5fc-e167d1faec7c",
+  "path": "screenpipe-worklog",
+  "path_key": "screenpipe-worklog",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

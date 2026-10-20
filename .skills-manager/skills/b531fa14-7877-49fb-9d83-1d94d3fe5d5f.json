@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b531fa14-7877-49fb-9d83-1d94d3fe5d5f",
+  "path": "cloudflare-email-service-2",
+  "path_key": "cloudflare-email-service-2",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

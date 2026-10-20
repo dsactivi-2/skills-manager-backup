@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a0ca3859-b330-4f54-96c9-edca20ac7076",
+  "path": "create-project-md-files",
+  "path_key": "create-project-md-files",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

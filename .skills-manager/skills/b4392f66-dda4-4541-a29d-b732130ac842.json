@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b4392f66-dda4-4541-a29d-b732130ac842",
+  "path": "infisical-env-project-sync",
+  "path_key": "infisical-env-project-sync",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

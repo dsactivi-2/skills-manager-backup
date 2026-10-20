@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "fa58ac54-b3a4-435b-83b7-a0271bfcb7b1",
+  "path": "openfang-vps-bootstrap",
+  "path_key": "openfang-vps-bootstrap",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

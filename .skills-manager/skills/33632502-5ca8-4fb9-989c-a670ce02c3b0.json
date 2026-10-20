@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "33632502-5ca8-4fb9-989c-a670ce02c3b0",
+  "path": "winui-app",
+  "path_key": "winui-app",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

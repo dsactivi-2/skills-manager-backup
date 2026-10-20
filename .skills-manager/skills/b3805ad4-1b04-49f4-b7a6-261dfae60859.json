@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b3805ad4-1b04-49f4-b7a6-261dfae60859",
+  "path": "source-series-ingest",
+  "path_key": "source-series-ingest",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

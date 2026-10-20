@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "7b605294-82d1-41d6-ae84-3347b609a466",
+  "path": "supabase",
+  "path_key": "supabase",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "e45ba586-60af-40bb-8c42-42919fd52283",
+  "path": "aai-cli",
+  "path_key": "aai-cli",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

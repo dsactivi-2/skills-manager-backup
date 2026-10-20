@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "790ca2aa-5fd0-4051-9213-403068744261",
+  "path": "soniox-voice-platform",
+  "path_key": "soniox-voice-platform",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

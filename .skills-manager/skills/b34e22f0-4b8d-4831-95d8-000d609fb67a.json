@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b34e22f0-4b8d-4831-95d8-000d609fb67a",
+  "path": "screenpipe-resume-work",
+  "path_key": "screenpipe-resume-work",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

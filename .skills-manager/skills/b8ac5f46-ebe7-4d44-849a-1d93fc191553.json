@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b8ac5f46-ebe7-4d44-849a-1d93fc191553",
+  "path": "calcomhelp",
+  "path_key": "calcomhelp",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

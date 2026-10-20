@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "84617f39-17ec-49eb-bbaa-f1d184ee878b",
+  "path": "dspy",
+  "path_key": "dspy",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

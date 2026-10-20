@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "929f83e3-13b3-4623-8bb2-62075d1cf653",
+  "path": "figma-implement-design",
+  "path_key": "figma-implement-design",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

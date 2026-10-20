@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "03956146-aec8-40bf-a239-358f9c9b66f2",
+  "path": "hermes-sessions",
+  "path_key": "hermes-sessions",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

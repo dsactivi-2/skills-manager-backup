@@ -1,0 +1,6 @@
+interface:
+  display_name: "MD Skills Hub"
+  short_description: "Choose a Markdown or Codex setup skill"
+  default_prompt: "Use $md-skills-hub to help me choose one of the five Markdown skills."
+policy:
+  allow_implicit_invocation: false

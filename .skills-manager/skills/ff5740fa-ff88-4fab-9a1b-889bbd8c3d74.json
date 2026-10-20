@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "ff5740fa-ff88-4fab-9a1b-889bbd8c3d74",
+  "path": "dograh-voice-opening-greeting",
+  "path_key": "dograh-voice-opening-greeting",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

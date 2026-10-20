@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "9957bcfc-33c8-4a3e-8c27-ce4393f3fa4c",
+  "path": "maestri-portal-devices",
+  "path_key": "maestri-portal-devices",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

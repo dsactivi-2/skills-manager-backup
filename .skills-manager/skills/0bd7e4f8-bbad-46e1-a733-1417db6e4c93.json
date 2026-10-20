@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "0bd7e4f8-bbad-46e1-a733-1417db6e4c93",
+  "path": "supermemory-status",
+  "path_key": "supermemory-status",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

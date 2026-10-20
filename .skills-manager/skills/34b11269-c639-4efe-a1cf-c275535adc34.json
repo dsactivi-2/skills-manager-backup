@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "34b11269-c639-4efe-a1cf-c275535adc34",
+  "path": "writing-system-prompts",
+  "path_key": "writing-system-prompts",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

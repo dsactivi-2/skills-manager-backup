@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "e288a051-24b3-4b69-8869-4cdda084eda7",
+  "path": "elestio",
+  "path_key": "elestio",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

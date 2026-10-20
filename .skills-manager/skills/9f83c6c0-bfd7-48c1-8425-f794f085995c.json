@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "9f83c6c0-bfd7-48c1-8425-f794f085995c",
+  "path": "world-builder",
+  "path_key": "world-builder",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

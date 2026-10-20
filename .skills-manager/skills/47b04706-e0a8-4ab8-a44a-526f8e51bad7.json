@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "47b04706-e0a8-4ab8-a44a-526f8e51bad7",
+  "path": "persona-suite",
+  "path_key": "persona-suite",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

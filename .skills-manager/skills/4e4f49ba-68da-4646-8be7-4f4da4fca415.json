@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "4e4f49ba-68da-4646-8be7-4f4da4fca415",
+  "path": "langchain-skill-audit-handover",
+  "path_key": "langchain-skill-audit-handover",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

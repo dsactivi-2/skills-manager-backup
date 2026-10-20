@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "c786d962-4103-4554-959e-4e31deccb23a",
+  "path": "voice-low-latency-patterns",
+  "path_key": "voice-low-latency-patterns",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

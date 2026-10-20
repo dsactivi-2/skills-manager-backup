@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a7b7775d-c52c-432d-83fb-85969ae140ed",
+  "path": "agent-regression",
+  "path_key": "agent-regression",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

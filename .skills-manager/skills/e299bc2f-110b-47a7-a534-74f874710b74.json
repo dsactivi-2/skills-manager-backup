@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "e299bc2f-110b-47a7-a534-74f874710b74",
+  "path": "jev-model-routing",
+  "path_key": "jev-model-routing",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

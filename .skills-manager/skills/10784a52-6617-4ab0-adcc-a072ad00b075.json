@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "10784a52-6617-4ab0-adcc-a072ad00b075",
+  "path": "vercel-agent",
+  "path_key": "vercel-agent",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

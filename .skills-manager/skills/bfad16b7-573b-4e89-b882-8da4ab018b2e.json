@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "bfad16b7-573b-4e89-b882-8da4ab018b2e",
+  "path": "reddit-reading",
+  "path_key": "reddit-reading",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

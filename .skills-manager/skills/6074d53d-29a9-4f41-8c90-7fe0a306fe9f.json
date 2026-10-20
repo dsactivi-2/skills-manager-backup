@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "6074d53d-29a9-4f41-8c90-7fe0a306fe9f",
+  "path": "miyo-task",
+  "path_key": "miyo-task",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

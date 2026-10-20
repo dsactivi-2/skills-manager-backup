@@ -1,0 +1,6 @@
+interface:
+  display_name: "Research-Backed Sales Agents"
+  short_description: "Reliable sales-agent design and audit"
+  default_prompt: "Use $research-backed-sales-agents to build or audit a sales agent with a state machine, script library, tool contract, claims ledger, model routing, and scenario tests."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "8a97764b-a903-4b87-ae02-b4cdc06f9335",
+  "path": "chatwoot-automation-patterns",
+  "path_key": "chatwoot-automation-patterns",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

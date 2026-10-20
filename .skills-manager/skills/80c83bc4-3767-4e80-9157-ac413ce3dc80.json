@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "80c83bc4-3767-4e80-9157-ac413ce3dc80",
+  "path": "hermes-mcp-http",
+  "path_key": "hermes-mcp-http",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

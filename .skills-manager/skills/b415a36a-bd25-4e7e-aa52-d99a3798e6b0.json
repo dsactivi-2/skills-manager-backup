@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b415a36a-bd25-4e7e-aa52-d99a3798e6b0",
+  "path": "simple-agent-manager",
+  "path_key": "simple-agent-manager",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "1bc718b4-cc7c-4ca2-a2ee-ef1cede70a2f",
+  "path": "bosnian-voice-agent-stack",
+  "path_key": "bosnian-voice-agent-stack",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

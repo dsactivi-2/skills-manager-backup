@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "c021a54c-2892-4192-802b-810389a11934",
+  "path": "n8n-node-configuration-official",
+  "path_key": "n8n-node-configuration-official",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

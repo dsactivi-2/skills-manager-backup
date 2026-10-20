@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "bebb82b4-5103-4533-879f-081ff09d90f8",
+  "path": "ai-regression-testing",
+  "path_key": "ai-regression-testing",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

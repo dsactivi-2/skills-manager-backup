@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "93ef17ac-479a-4d9a-8a2c-68178815a494",
+  "path": "aws-diagrams",
+  "path_key": "aws-diagrams",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

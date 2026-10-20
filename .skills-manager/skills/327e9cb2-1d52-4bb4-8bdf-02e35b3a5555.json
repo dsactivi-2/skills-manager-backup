@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "327e9cb2-1d52-4bb4-8bdf-02e35b3a5555",
+  "path": "env-vars",
+  "path_key": "env-vars",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

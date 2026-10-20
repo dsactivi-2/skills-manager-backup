@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "fff19eee-fe3f-4317-8a16-5ffb3ea696fa",
+  "path": "use-railway",
+  "path_key": "use-railway",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

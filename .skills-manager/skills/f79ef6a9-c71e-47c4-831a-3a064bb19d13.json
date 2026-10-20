@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f79ef6a9-c71e-47c4-831a-3a064bb19d13",
+  "path": "vercel-connect",
+  "path_key": "vercel-connect",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

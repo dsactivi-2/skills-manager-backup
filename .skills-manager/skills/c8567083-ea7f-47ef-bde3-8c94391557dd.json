@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "c8567083-ea7f-47ef-bde3-8c94391557dd",
+  "path": "maestri-routines",
+  "path_key": "maestri-routines",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

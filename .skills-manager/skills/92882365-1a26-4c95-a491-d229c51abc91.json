@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "92882365-1a26-4c95-a491-d229c51abc91",
+  "path": "custom-metric-builder",
+  "path_key": "custom-metric-builder",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "3c6cd294-9069-4899-8d28-f542897073fa",
+  "path": "hf-cli",
+  "path_key": "hf-cli",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "713b48bc-5b99-4204-a6ab-d95860772eee",
+  "path": "gws-gmail-read",
+  "path_key": "gws-gmail-read",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

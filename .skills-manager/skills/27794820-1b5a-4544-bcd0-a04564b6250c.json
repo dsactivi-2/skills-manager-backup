@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "27794820-1b5a-4544-bcd0-a04564b6250c",
+  "path": "gws-workflow-meeting-prep",
+  "path_key": "gws-workflow-meeting-prep",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

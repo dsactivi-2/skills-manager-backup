@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "fd0ff4a4-8e3a-494f-ae97-b2dc8bf2c268",
+  "path": "youtube-video-research",
+  "path_key": "youtube-video-research",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

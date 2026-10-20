@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "14105677-6288-4749-a6e6-16ed30c910a6",
+  "path": "native-mcp",
+  "path_key": "native-mcp",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

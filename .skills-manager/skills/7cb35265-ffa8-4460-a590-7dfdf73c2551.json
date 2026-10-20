@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "7cb35265-ffa8-4460-a590-7dfdf73c2551",
+  "path": "build-dashboard",
+  "path_key": "build-dashboard",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

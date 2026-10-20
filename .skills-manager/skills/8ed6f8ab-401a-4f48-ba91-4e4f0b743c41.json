@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "8ed6f8ab-401a-4f48-ba91-4e4f0b743c41",
+  "path": "markdownlint",
+  "path_key": "markdownlint",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Update MD Files"
+  short_description: "Optimiert bestehende Steuerungsdokumente"
+  default_prompt: "Use $update-md-files to review and improve existing Markdown configuration files."

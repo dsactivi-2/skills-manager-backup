@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "128cbe01-8c0b-474e-b2e8-d37e36d3cba5",
+  "path": "screenpipe-workflow-discovery",
+  "path_key": "screenpipe-workflow-discovery",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

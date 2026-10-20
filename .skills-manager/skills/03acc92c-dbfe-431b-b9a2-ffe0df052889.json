@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "03acc92c-dbfe-431b-b9a2-ffe0df052889",
+  "path": "miyo-search",
+  "path_key": "miyo-search",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

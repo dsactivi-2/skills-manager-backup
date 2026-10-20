@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "d1ec4701-c19b-4b42-a97e-102d01e5aec4",
+  "path": "parallel-data-enrichment",
+  "path_key": "parallel-data-enrichment",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

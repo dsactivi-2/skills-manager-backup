@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "afa77c36-299c-4758-852e-0718b7321b5b",
+  "path": "eraser-workflow-maps",
+  "path_key": "eraser-workflow-maps",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

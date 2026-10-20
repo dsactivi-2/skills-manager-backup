@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "ff3f9e55-c1b3-4019-b075-6323640fc53f",
+  "path": "openai-prompt-engineering",
+  "path_key": "openai-prompt-engineering",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

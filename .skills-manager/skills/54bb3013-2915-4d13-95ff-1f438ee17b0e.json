@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "54bb3013-2915-4d13-95ff-1f438ee17b0e",
+  "path": "writing-plans-2",
+  "path_key": "writing-plans-2",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

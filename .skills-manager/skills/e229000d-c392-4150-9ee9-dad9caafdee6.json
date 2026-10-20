@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "e229000d-c392-4150-9ee9-dad9caafdee6",
+  "path": "taskfuel",
+  "path_key": "taskfuel",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "436bf7ee-25db-4552-b55c-eaa23b4a23db",
+  "path": "hexabot-workflow-writer",
+  "path_key": "hexabot-workflow-writer",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "GitHub Issue Investigation"
+  short_description: "Investigate GitHub issues via Agents API"
+  default_prompt: "Use $github-issue-investigation to investigate a GitHub issue. Ask for the repo path and the task if they are missing."

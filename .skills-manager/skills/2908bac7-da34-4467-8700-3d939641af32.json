@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "2908bac7-da34-4467-8700-3d939641af32",
+  "path": "agentkit-seo-linkedin",
+  "path_key": "agentkit-seo-linkedin",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

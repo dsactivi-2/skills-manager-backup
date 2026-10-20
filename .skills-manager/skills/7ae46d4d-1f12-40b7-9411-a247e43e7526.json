@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "7ae46d4d-1f12-40b7-9411-a247e43e7526",
+  "path": "unified-memory",
+  "path_key": "unified-memory",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

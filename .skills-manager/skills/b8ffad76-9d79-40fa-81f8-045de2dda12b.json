@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b8ffad76-9d79-40fa-81f8-045de2dda12b",
+  "path": "n8n-plan-route-audit",
+  "path_key": "n8n-plan-route-audit",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

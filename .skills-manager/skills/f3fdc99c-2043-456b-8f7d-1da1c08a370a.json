@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f3fdc99c-2043-456b-8f7d-1da1c08a370a",
+  "path": "screenpipe-interview-synthesis",
+  "path_key": "screenpipe-interview-synthesis",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f0720a28-df5c-40f4-95eb-06337f8c954f",
+  "path": "agentkit-seo-web-portfolio",
+  "path_key": "agentkit-seo-web-portfolio",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

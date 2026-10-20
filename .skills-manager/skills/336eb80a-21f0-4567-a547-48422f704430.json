@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "336eb80a-21f0-4567-a547-48422f704430",
+  "path": "screenpipe-shareable-recap",
+  "path_key": "screenpipe-shareable-recap",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

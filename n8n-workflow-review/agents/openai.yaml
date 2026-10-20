@@ -1,0 +1,7 @@
+interface:
+  display_name: "n8n Workflow Review"
+  short_description: "Audit existing n8n workflows safely"
+  default_prompt: "Use $n8n-workflow-review to audit this n8n workflow without changing it."
+
+policy:
+  allow_implicit_invocation: true

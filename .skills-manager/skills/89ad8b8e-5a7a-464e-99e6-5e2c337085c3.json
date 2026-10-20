@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "89ad8b8e-5a7a-464e-99e6-5e2c337085c3",
+  "path": "all-mcp-3",
+  "path_key": "all-mcp-3",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

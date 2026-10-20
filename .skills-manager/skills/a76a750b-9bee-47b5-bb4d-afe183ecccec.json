@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a76a750b-9bee-47b5-bb4d-afe183ecccec",
+  "path": "compare-runs",
+  "path_key": "compare-runs",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

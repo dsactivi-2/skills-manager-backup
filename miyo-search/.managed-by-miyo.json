@@ -1,0 +1,11 @@
+{
+  "managedBy": "miyo-desktop",
+  "name": "miyo-search",
+  "version": "1.3.1",
+  "files": {
+    "SKILL.md": "80570b3d4139ef2efc678eca769e391f2228a034478e5391e9178669636cde62",
+    "references/files-and-folders.md": "e009c5b39b9ed3dd9118547e2a41bccce455f7ea144689ce4f57e4bc965ee7c6",
+    "references/search.md": "4e47db773f44098180a0edc2d6161da31a61169fa7ad9df41b773113976ce578",
+    "references/troubleshooting.md": "64b80cdf520f63bda2e79ab806d28482b304bb2b73da84390529b9b6383b1a5a"
+  }
+}

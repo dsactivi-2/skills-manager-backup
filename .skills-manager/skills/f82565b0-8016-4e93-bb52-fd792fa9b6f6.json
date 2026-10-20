@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f82565b0-8016-4e93-bb52-fd792fa9b6f6",
+  "path": "job-search-coach",
+  "path_key": "job-search-coach",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

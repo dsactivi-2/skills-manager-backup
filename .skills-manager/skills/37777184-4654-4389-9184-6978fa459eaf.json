@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "37777184-4654-4389-9184-6978fa459eaf",
+  "path": "opencodex-codex-app-isolation",
+  "path_key": "opencodex-codex-app-isolation",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "65de3dc5-733b-4d31-bd9a-1c8e5979bd5d",
+  "path": "screenpipe-customer-context",
+  "path_key": "screenpipe-customer-context",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

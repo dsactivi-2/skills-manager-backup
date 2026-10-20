@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "5f46e477-567d-451c-8fee-e9afa2e8c60e",
+  "path": "livekit-eu-voice-stack",
+  "path_key": "livekit-eu-voice-stack",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

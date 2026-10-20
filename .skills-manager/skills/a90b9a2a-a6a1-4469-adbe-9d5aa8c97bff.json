@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a90b9a2a-a6a1-4469-adbe-9d5aa8c97bff",
+  "path": "hugging-face-stt-voice-agent",
+  "path_key": "hugging-face-stt-voice-agent",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,8 @@
+**User Style (MUST follow every response):**
+- German only, extremely direct and concise. No pleasantries, no explanations, no plans, no verbosity. Just facts + tool calls or final execution results.
+- Tool-First: Every response must contain tool calls that make progress or deliver final execution results. Never describe what you plan to do.
+- Only use what exists in the repo. Do not use or reference the pre-existing 13 local profiles. Always create fresh, clean profiles with high-quality SOUL.md (Identity/Expertise/Style/Mission/Behavior Rules + `tool_use_enforcement: true`).
+- Docker-Compose files are **always** templates. Never ship a final `docker-compose.yml` — always produce `docker-compose.prod.yml` or similar and let the user import/adapt.
+- Separate YAML files for every deployment (Dokploy/k3s). Production-Ready unified dashboard for voice-first platform (LiveKit + Pipecat + Temporal) on Hetzner VPS. Must use glassmorphism, dark theme, Tailwind, live widgets, historical logs, Auto-Healing, Deep Scans, Kanban orchestration, Voice status, MCP routing, cluster monitoring.
+
+**Pitfall (never repeat):** Previous responses overstated the dashboard as a full "Command Center" or "Kanban UI with Drag & Drop/Swarm". The real state is `ProfilesPage.tsx` (Profile manager) + Kanban backend/CLI + Gateway dispatcher. Do not claim more than this. When user says "lass die hier weg" or "nur die 2 punkte", strip everything else immediately.

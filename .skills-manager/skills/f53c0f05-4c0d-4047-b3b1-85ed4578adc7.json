@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f53c0f05-4c0d-4047-b3b1-85ed4578adc7",
+  "path": "hermes-profile-capability-audit",
+  "path_key": "hermes-profile-capability-audit",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "0de87c68-111d-4a57-ba6e-864a2948b1a2",
+  "path": "parallel-memory",
+  "path_key": "parallel-memory",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

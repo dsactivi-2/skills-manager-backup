@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "3cb5fb95-9a75-4ac7-a775-4d25e0436224",
+  "path": "truthful-application-briefs",
+  "path_key": "truthful-application-briefs",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "74aa4bc7-a817-4263-aebc-3dc5941fc04f",
+  "path": "openhue",
+  "path_key": "openhue",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

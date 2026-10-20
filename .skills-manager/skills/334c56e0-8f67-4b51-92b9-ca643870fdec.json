@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "334c56e0-8f67-4b51-92b9-ca643870fdec",
+  "path": "cli-creator",
+  "path_key": "cli-creator",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

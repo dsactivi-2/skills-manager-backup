@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a934c2cf-1ab5-4501-b07d-7ae86f3b8b3f",
+  "path": "delivery-gate",
+  "path_key": "delivery-gate",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

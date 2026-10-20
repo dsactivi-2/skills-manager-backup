@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "9f49a8f8-ae80-4670-ba0d-fdb3118aea05",
+  "path": "yeet",
+  "path_key": "yeet",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

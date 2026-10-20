@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "cb3d50b7-ec9b-4228-a403-b35539d31568",
+  "path": "parallel-cli-setup",
+  "path_key": "parallel-cli-setup",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

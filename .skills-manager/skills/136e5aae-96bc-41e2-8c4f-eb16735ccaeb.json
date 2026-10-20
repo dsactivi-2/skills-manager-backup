@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "136e5aae-96bc-41e2-8c4f-eb16735ccaeb",
+  "path": "jev-memory-2",
+  "path_key": "jev-memory-2",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

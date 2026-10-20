@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "0f548b8a-391e-4b87-af7a-63774f47f133",
+  "path": "sentry",
+  "path_key": "sentry",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

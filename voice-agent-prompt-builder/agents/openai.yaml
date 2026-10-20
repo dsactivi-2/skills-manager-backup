@@ -1,0 +1,4 @@
+interface:
+  display_name: "Voice Agent Prompt Builder"
+  short_description: "Build or audit voice-agent prompts"
+  default_prompt: "Use $voice-agent-prompt-builder to create or audit a structured prompt for a voice agent use case."

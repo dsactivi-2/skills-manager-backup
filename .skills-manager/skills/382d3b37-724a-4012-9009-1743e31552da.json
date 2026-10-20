@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "382d3b37-724a-4012-9009-1743e31552da",
+  "path": "gws-workflow-file-announce",
+  "path_key": "gws-workflow-file-announce",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

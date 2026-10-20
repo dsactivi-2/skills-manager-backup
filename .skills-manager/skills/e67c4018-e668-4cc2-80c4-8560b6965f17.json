@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "e67c4018-e668-4cc2-80c4-8560b6965f17",
+  "path": "cloudflare-mcp",
+  "path_key": "cloudflare-mcp",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

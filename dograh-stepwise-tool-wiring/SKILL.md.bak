@@ -1,0 +1,82 @@
+---
+name: dograh-stepwise-tool-wiring
+description: "Stepwise Dograh workflow work that separates localization-only passes, runtime/provider faults, draft-vs-production state, stable-baseline iteration, and explicit STT/voice/tool wiring decisions."
+trigger: "Use when editing a Dograh voice workflow in small verified steps, especially when localization, prosody, interruptions, STT language drift, or production-vs-draft wiring can get mixed together."
+author: activi
+source_sessions:
+  - activi_dsactivi's Organization_default_019ef037-b0d1-73d1-b671-6dce15e8dc52
+  - activi_dsactivi's Organization_default_019ef092-5dee-79b0-87d1-d28d617c86c9
+  - activi_dsactivi's Organization_default_019ef06b-a7c8-7cc0-bf04-bbe153177903
+  - activi_dsactivi's Organization_default_019ef067-a681-7a53-95b0-55c080d7a846
+  - activi_dsactivi's Organization_default_019ef043-fd75-7410-b115-4b262e75f569
+contributors:
+  - activi
+version: 11
+created_by_agent: codex
+created_at: 2026-06-22T17:34:18.028Z
+updated_at: 2026-06-22T23:19:04.770Z
+---
+
+# Dograh stepwise workflow wiring and localization discipline
+
+## When to use
+Use when building or editing a Dograh workflow in small verified steps, especially when localization, voice tuning, prompt hardening, interruption bugs, runtime faults, and CRM/tool wiring can get mixed together.
+
+Typical signals:
+- Full language pass, for example German to Italian.
+- Voice/prosody tuning such as locale anchoring, pronunciation, filler words, pacing, warmth, or replacing place names like `Bremen` with `Cazin`.
+- Langfuse traces show hangs, skipped replies, `turn.was_interrupted = true`, or language drift after short inputs like `Da`, `Aha`, `Ciao`.
+- A runtime failure like STT `503 Service Unavailable` or OpenAI STT silently behaving as if the language were English.
+- The workspace has no tools, credentials, documents, or recordings yet.
+- The user wants a production-ready V1 now, then real integrations later.
+
+## Workflow
+1. Discover first.
+- Classify the task: localization-only, voice/prosody tuning, prompt hardening, flow redesign, runtime debugging, or tool wiring.
+- Check tools, credentials, documents, recordings, and whether Draft differs from the live published workflow.
+
+2. If the task is localization-only, preserve behavior.
+- Translate visible text layers first: `greeting`, node `prompt`s, `extraction_prompt`s, `extraction_variables.prompt`, `qa_system_prompt`, global persona text, and `endCall` text.
+- Keep node structure, edges, extraction schema, and variable names unchanged unless the user explicitly wants flow changes.
+
+3. Separate concern layers.
+- Prompt/persona/localization.
+- Voice/prosody and turn-taking.
+- Flow/state machine.
+- Runtime/provider failures.
+- Tooling path and integration architecture.
+- Treat STT `503` or wrong-language STT behavior as provider/runtime failure, not a prompt bug.
+
+4. Keep one stable published baseline while redesigning a richer draft.
+- Do not burn the only known-good workflow while testing a larger rebuild.
+- Evolve the new draft separately, then compare it against the stable live baseline.
+
+5. Diagnose hangs before rewriting prompts.
+- In Langfuse, inspect the opening and early turns first.
+- Compare LLM and TTS latency before calling it a slowness problem.
+- If latency is normal but the agent hangs or skips, treat it as backchannel handling, turn-boundary sensitivity, STT drift, or state-machine logic first.
+
+6. Fix one layer at a time.
+- First language pass without structural drift.
+- Then voice/prosody and state-machine wording.
+- Then explicit backchannel and clarification nodes.
+- Then runtime/provider fixes such as STT language hints.
+- Then tool wiring.
+
+7. If STT language drift appears, inspect runtime config directly.
+- Check whether the active provider actually receives a locale or language field.
+- For OpenAI STT in Dograh, verify the configuration model and service factory both pass `language` through.
+- Add a regression test for explicit and default language behavior before declaring the fix complete.
+
+8. Track Draft vs production explicitly.
+- Saving a Draft is not production.
+- After publish, verify greeting, early-turn behavior, runtime language, interruptions, and any wired tool path.
+
+## Anti-patterns
+- Translating structure or variable names during a language-only pass.
+- Mixing localization, prompt hardening, runtime recovery, and CRM wiring in one step.
+- Treating short-backchannel hangs as a pure prompt problem.
+- Calling it latency when traces show normal LLM/TTS timings.
+- Assuming a saved Draft is the workflow receiving live calls.
+- Replacing the stable production workflow before the richer draft is proven.
+- Declaring an STT fix done without checking the runtime actually receives the language hint.

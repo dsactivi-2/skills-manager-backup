@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "ffcf23ca-0a36-4885-9701-ec72f4d7462b",
+  "path": "migrate-to-parallel",
+  "path_key": "migrate-to-parallel",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

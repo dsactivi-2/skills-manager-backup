@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "e196909d-c33a-4cd8-9c78-9d220bc5cd21",
+  "path": "dograh-custom-tts-provider",
+  "path_key": "dograh-custom-tts-provider",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

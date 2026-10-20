@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f0780bfc-9a2b-45b4-8f30-5635f283a0ae",
+  "path": "plan-canvas",
+  "path_key": "plan-canvas",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

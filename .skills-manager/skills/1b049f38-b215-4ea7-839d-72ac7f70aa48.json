@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "1b049f38-b215-4ea7-839d-72ac7f70aa48",
+  "path": "provider-api-usage-costs",
+  "path_key": "provider-api-usage-costs",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

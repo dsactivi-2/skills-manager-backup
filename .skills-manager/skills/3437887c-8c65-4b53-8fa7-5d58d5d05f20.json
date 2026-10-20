@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "3437887c-8c65-4b53-8fa7-5d58d5d05f20",
+  "path": "sanitizing-agent-exports",
+  "path_key": "sanitizing-agent-exports",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

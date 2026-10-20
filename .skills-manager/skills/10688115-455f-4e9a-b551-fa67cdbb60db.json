@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "10688115-455f-4e9a-b551-fa67cdbb60db",
+  "path": "n8n-workflow-review",
+  "path_key": "n8n-workflow-review",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

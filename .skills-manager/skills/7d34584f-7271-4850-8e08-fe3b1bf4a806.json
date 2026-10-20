@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "7d34584f-7271-4850-8e08-fe3b1bf4a806",
+  "path": "dograh-master-ops",
+  "path_key": "dograh-master-ops",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

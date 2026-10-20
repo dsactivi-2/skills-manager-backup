@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "4f796de7-fe9d-4d52-92ed-9012529a0399",
+  "path": "create-global-md-files",
+  "path_key": "create-global-md-files",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

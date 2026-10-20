@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "d74763a0-9682-4afb-aac2-cb51d74e5983",
+  "path": "screenpipe-decision-history",
+  "path_key": "screenpipe-decision-history",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

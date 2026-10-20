@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "3600ff2e-d787-406b-a631-7449cbde090a",
+  "path": "knowledge-update",
+  "path_key": "knowledge-update",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

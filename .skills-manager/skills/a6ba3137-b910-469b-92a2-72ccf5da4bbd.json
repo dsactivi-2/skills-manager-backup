@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a6ba3137-b910-469b-92a2-72ccf5da4bbd",
+  "path": "dograh-human-conversation",
+  "path_key": "dograh-human-conversation",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

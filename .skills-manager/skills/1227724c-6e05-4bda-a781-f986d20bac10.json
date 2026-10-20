@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "1227724c-6e05-4bda-a781-f986d20bac10",
+  "path": "microfrontends",
+  "path_key": "microfrontends",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

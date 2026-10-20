@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "8d784e2a-2260-4fbf-a9d3-07ea9bf790cc",
+  "path": "maestri-chat",
+  "path_key": "maestri-chat",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

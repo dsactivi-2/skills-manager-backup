@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a6479a44-4cf4-484e-a63d-abd03846299d",
+  "path": "german-voice-prompts",
+  "path_key": "german-voice-prompts",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

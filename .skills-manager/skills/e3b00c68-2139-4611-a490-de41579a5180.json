@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "e3b00c68-2139-4611-a490-de41579a5180",
+  "path": "dograh-azure-openai-byok-debug",
+  "path_key": "dograh-azure-openai-byok-debug",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

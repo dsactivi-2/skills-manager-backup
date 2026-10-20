@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "9f7c6037-3c00-4e7a-80d3-90dc53b7905b",
+  "path": "Voiceinfraai",
+  "path_key": "voiceinfraai",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

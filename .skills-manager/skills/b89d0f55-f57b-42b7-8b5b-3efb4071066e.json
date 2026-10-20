@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "b89d0f55-f57b-42b7-8b5b-3efb4071066e",
+  "path": "runtime-cache",
+  "path_key": "runtime-cache",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

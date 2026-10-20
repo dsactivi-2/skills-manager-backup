@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "3d0e4d0c-bde5-4a88-9be9-8e6d07c626af",
+  "path": "growth-log",
+  "path_key": "growth-log",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "459db3fd-5ce8-4e0a-af73-b469faf69b7c",
+  "path": "red-team-sweep",
+  "path_key": "red-team-sweep",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

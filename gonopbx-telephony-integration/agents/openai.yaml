@@ -1,0 +1,6 @@
+interface:
+  display_name: "GOno PBX Telephony Integration"
+  short_description: "Set up GOno PBX with Infobip and Dograh"
+  default_prompt: "Use $gonopbx-telephony-integration to plan a GOno PBX Infobip SIP trunk and Dograh ARI integration."
+policy:
+  allow_implicit_invocation: true

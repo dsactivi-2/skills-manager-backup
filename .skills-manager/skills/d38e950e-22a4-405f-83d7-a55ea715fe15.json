@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "d38e950e-22a4-405f-83d7-a55ea715fe15",
+  "path": "next-upgrade",
+  "path_key": "next-upgrade",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

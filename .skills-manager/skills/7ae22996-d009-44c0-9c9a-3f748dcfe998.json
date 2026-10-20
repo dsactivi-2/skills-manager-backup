@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "7ae22996-d009-44c0-9c9a-3f748dcfe998",
+  "path": "screenpipe-meeting-follow-up",
+  "path_key": "screenpipe-meeting-follow-up",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

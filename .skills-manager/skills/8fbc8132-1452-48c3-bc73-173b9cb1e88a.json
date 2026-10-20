@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "8fbc8132-1452-48c3-bc73-173b9cb1e88a",
+  "path": "job-description-analyzer",
+  "path_key": "job-description-analyzer",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

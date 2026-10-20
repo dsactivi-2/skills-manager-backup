@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "9214b38e-0fb6-41f5-a6bc-787aceca51e8",
+  "path": "ecosystem-primer",
+  "path_key": "ecosystem-primer",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

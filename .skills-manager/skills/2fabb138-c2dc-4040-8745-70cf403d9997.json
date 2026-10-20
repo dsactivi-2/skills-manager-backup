@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "2fabb138-c2dc-4040-8745-70cf403d9997",
+  "path": "jev-review-loop",
+  "path_key": "jev-review-loop",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

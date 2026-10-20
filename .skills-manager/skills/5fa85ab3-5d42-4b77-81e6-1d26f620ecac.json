@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "5fa85ab3-5d42-4b77-81e6-1d26f620ecac",
+  "path": "security-ownership-map",
+  "path_key": "security-ownership-map",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

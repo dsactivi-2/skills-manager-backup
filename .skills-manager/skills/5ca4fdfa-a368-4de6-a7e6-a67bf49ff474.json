@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "5ca4fdfa-a368-4de6-a7e6-a67bf49ff474",
+  "path": "n8n-credentials-and-security-official",
+  "path_key": "n8n-credentials-and-security-official",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

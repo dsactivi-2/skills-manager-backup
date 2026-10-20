@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "2d073c6c-9d15-4ab5-9e98-ff2230409a37",
+  "path": "livekit-voice-build",
+  "path_key": "livekit-voice-build",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "f48b8106-6144-4aba-ba24-a59a72900733",
+  "path": "linkedin-profile-optimizer",
+  "path_key": "linkedin-profile-optimizer",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "51990932-beed-4eb5-a583-475526ac93a7",
+  "path": "routing-middleware",
+  "path_key": "routing-middleware",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

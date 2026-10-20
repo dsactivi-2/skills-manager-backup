@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "8c5a2241-171e-4fcf-9076-d84c0931a92d",
+  "path": "failed-call-triage",
+  "path_key": "failed-call-triage",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

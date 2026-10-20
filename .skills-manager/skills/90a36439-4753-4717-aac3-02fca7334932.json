@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "90a36439-4753-4717-aac3-02fca7334932",
+  "path": "agent-skill-installation",
+  "path_key": "agent-skill-installation",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

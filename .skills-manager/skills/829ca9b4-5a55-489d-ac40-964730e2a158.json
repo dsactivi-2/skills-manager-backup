@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "829ca9b4-5a55-489d-ac40-964730e2a158",
+  "path": "honcho-cli",
+  "path_key": "honcho-cli",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

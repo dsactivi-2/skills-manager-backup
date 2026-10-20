@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "3b3dbee0-39ef-4392-9ef6-275c58244f9f",
+  "path": "okx-cex-market",
+  "path_key": "okx-cex-market",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

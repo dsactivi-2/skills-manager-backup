@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "d3e31d63-985c-4a9d-a199-676483e72f10",
+  "path": "podman-macos",
+  "path_key": "podman-macos",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

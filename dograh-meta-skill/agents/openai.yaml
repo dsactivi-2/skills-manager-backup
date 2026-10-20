@@ -1,0 +1,6 @@
+interface:
+  display_name: "Dograh Meta Skill"
+  short_description: "Routes Dograh voice-agent work to the best skill"
+  default_prompt: "Use $dograh-meta-skill to choose the best Dograh, voice, sales, tool, observability, or setup skill for this agent task."
+policy:
+  allow_implicit_invocation: true

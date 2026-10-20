@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a1960cc1-939b-4e27-a932-a089e522b907",
+  "path": "playbook-conductors",
+  "path_key": "playbook-conductors",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

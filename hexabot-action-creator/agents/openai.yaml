@@ -1,0 +1,7 @@
+interface:
+  display_name: "Hexabot Action Creator"
+  short_description: "Design and implement Hexabot v3 actions"
+  default_prompt: "Use $hexabot-ai/action-creator to design and implement a Hexabot v3 action."
+
+policy:
+  allow_implicit_invocation: true

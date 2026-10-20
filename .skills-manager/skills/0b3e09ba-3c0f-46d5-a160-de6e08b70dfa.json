@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "0b3e09ba-3c0f-46d5-a160-de6e08b70dfa",
+  "path": "public-quick-tunnel-hosting",
+  "path_key": "public-quick-tunnel-hosting",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

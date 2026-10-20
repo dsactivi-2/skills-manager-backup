@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "97090b5a-85b0-4b81-99da-3388b678aa2a",
+  "path": "audited-vps-installation-workflow",
+  "path_key": "audited-vps-installation-workflow",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

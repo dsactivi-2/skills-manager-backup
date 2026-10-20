@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "03d34c2f-084c-4dcf-960b-013f0f473b21",
+  "path": "mcp-server-design",
+  "path_key": "mcp-server-design",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

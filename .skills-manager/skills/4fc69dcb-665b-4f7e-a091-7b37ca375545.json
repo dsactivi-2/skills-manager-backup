@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "4fc69dcb-665b-4f7e-a091-7b37ca375545",
+  "path": "barbarez-three-lanes",
+  "path_key": "barbarez-three-lanes",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

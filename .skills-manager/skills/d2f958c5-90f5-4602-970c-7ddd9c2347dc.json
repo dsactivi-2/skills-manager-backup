@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "d2f958c5-90f5-4602-970c-7ddd9c2347dc",
+  "path": "jev-mailbox",
+  "path_key": "jev-mailbox",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}
