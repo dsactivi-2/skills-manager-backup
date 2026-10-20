@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "57b06675-9c45-4bfa-b090-326759ec2a1a",
+  "path": "devops-engineer",
+  "path_key": "devops-engineer",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "jeffallan/claude-skills/devops-engineer",
+    "subpath": "skills/devops-engineer",
+    "branch": null
+  }
+}

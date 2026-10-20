@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "aa305680-db11-4085-9137-9fb20f7d79ce",
+  "path": "devops-rollout-plan",
+  "path_key": "devops-rollout-plan",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "skillssh",
+    "ref": "github/awesome-copilot/devops-rollout-plan",
+    "subpath": "skills/devops-rollout-plan",
+    "branch": null
+  }
+}
